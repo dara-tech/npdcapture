@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Ambient & Drop Shadows -->
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="150%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+    <filter id="paper-shadow" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#334155" flood-opacity="0.08" />
+    </filter>
+    <filter id="clip-shadow" x="-20%" y="-20%" width="140%" height="150%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.18" />
+    </filter>
+    <filter id="pen-shadow" x="-30%" y="-30%" width="160%" height="160%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="3" dy="8" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.15" />
+    </filter>
+    <filter id="badge-glow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2563eb" flood-opacity="0.25" />
+    </filter>
+
+    <!-- Gradients -->
+    <!-- Board Base Gradient -->
+    <linearGradient id="board-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="40%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+
+    <!-- Board Front Surface Gradient -->
+    <linearGradient id="board-surface" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="50%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+
+    <!-- Metallic Clamp -->
+    <linearGradient id="metal-clamp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#E2E8F0" />
+      <stop offset="50%" stop-color="#94A3B8" />
+      <stop offset="75%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+
+    <!-- Paper Gradient -->
+    <linearGradient id="paper-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="90%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <!-- Pen Body Gradient -->
+    <linearGradient id="pen-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="40%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+
+    <!-- Heartbeat / Health Badge Gradient -->
+    <linearGradient id="badge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Floor Glow -->
+  <ellipse cx="200" cy="355" rx="140" ry="16" fill="#0f172a" fill-opacity="0.06" filter="blur(8px)" />
+
+  <!-- Group for Clipboard with subtle tilt -->
+  <g transform="translate(10, 5)">
+    <!-- 1. Clipboard Base Board -->
+    <rect x="85" y="45" width="210" height="295" rx="24" fill="url(#board-grad)" filter="url(#soft-shadow)" />
+    <!-- Inner board rim for 3D thickness -->
+    <rect x="88" y="47" width="204" height="289" rx="22" fill="url(#board-surface)" stroke="#FFFFFF" stroke-width="1.5" />
+
+    <!-- 2. Paper Sheet -->
+    <g filter="url(#paper-shadow)">
+      <rect x="105" y="70" width="170" height="250" rx="14" fill="url(#paper-grad)" stroke="#E2E8F0" stroke-width="1" />
+      
+      <!-- Top Medical Record Header Bar -->
+      <g transform="translate(125, 100)">
+        <!-- Medical Cross in circular pill -->
+        <rect x="0" y="0" width="28" height="28" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1" />
+        <path d="M14 8v12M8 14h12" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round" />
+        <!-- Record Title Mockup Bars -->
+        <rect x="36" y="4" width="70" height="8" rx="4" fill="#334155" />
+        <rect x="36" y="16" width="45" height="6" rx="3" fill="#94A3B8" />
+      </g>
+
+      <!-- Decorative Divider Line -->
+      <line x1="125" y1="142" x2="255" y2="142" stroke="#F1F5F9" stroke-width="2" stroke-linecap="round" />
+
+      <!-- Checklist Item 1 (Green / Complete) -->
+      <g transform="translate(125, 156)">
+        <circle cx="11" cy="11" r="11" fill="#DCFCE7" />
+        <path d="M7 11.5l2.5 2.5 5-5" stroke="#16A34A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <rect x="30" y="5" width="85" height="6" rx="3" fill="#475569" />
+        <rect x="30" y="14" width="55" height="5" rx="2.5" fill="#CBD5E1" />
+      </g>
+
+      <!-- Checklist Item 2 (Teal / Complete) -->
+      <g transform="translate(125, 196)">
+        <circle cx="11" cy="11" r="11" fill="#CCFBF1" />
+        <path d="M7 11.5l2.5 2.5 5-5" stroke="#0D9488" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <rect x="30" y="5" width="75" height="6" rx="3" fill="#475569" />
+        <rect x="30" y="14" width="60" height="5" rx="2.5" fill="#CBD5E1" />
+      </g>
+
+      <!-- Checklist Item 3 (Blue / Complete) -->
+      <g transform="translate(125, 236)">
+        <circle cx="11" cy="11" r="11" fill="#DBEAFE" />
+        <path d="M7 11.5l2.5 2.5 5-5" stroke="#2563EB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <rect x="30" y="5" width="90" height="6" rx="3" fill="#475569" />
+        <rect x="30" y="14" width="45" height="5" rx="2.5" fill="#CBD5E1" />
+      </g>
+
+      <!-- Checklist Item 4 (Amber / In Progress) -->
+      <g transform="translate(125, 276)">
+        <circle cx="11" cy="11" r="11" fill="#FEF3C7" />
+        <circle cx="11" cy="11" r="4" fill="#D97706" />
+        <rect x="30" y="5" width="65" height="6" rx="3" fill="#64748B" />
+        <rect x="30" y="14" width="40" height="5" rx="2.5" fill="#E2E8F0" />
+      </g>
+    </g>
+
+    <!-- 3. Metallic Clip at Top -->
+    <g filter="url(#clip-shadow)">
+      <!-- Base Clip Mount -->
+      <rect x="145" y="36" width="90" height="32" rx="7" fill="url(#metal-clamp)" stroke="#94A3B8" stroke-width="1" />
+      <!-- Clip Grip Bar -->
+      <rect x="155" y="44" width="70" height="12" rx="4" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+      <!-- Top Hanger Loop -->
+      <path d="M176 36V26a14 14 0 0 1 28 0v10" fill="none" stroke="url(#metal-clamp)" stroke-width="5" stroke-linecap="round" />
+      <circle cx="190" cy="50" r="3.5" fill="#64748B" />
+    </g>
+  </g>
+
+  <!-- 4. Floating 3D Stylus / Pen on the right -->
+  <g transform="translate(285, 170) rotate(18)" filter="url(#pen-shadow)">
+    <!-- Pen Barrel -->
+    <rect x="-8" y="-70" width="16" height="130" rx="8" fill="url(#pen-grad)" stroke="#0284C7" stroke-width="1" />
+    <!-- Metallic Grip Bands -->
+    <rect x="-8" y="20" width="16" height="6" fill="#F8FAFC" opacity="0.8" />
+    <rect x="-8" y="32" width="16" height="6" fill="#F8FAFC" opacity="0.8" />
+    <!-- Pen Tip (Cone) -->
+    <path d="M-8 60 L8 60 L0 82 Z" fill="#E2E8F0" stroke="#94A3B8" stroke-width="0.8" />
+    <circle cx="0" cy="81" r="1.5" fill="#0F172A" />
+    <!-- Pen Cap Button -->
+    <rect x="-6" y="-76" width="12" height="7" rx="3" fill="#E2E8F0" />
+    <!-- Clip -->
+    <rect x="-11" y="-62" width="3" height="40" rx="1.5" fill="#F8FAFC" />
+  </g>
+
+  <!-- 5. Floating Cute Health Badge / Tag at bottom-left -->
+  <g transform="translate(70, 260) rotate(-10)" filter="url(#badge-glow)">
+    <rect x="0" y="0" width="56" height="56" rx="16" fill="#FFFFFF" stroke="#DBEAFE" stroke-width="1.5" />
+    <circle cx="28" cy="28" r="20" fill="url(#badge-grad)" />
+    <!-- Heartbeat Pulse Line -->
+    <path d="M17 28h5l3-6 4 12 3-8 2 2h5" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

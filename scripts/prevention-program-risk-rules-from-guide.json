@@ -1,0 +1,154 @@
+{
+  "programId": "gmO3xUubvMb",
+  "programStageId": "hqJKFmOU6s7",
+  "stageName": "Risk assessment",
+  "source": "capture/guide/Risk_rule.md",
+  "questionToDataElement": {
+    "1": { "deId": "Lbi259Segyq", "name": "1. What is your sex at birth?", "var": "Risk_1sex at birth" },
+    "2": { "deId": "Hvpk8CSzvWZ", "name": "2. What is your gender identity?", "var": "Risk_2gender" },
+    "3": { "deId": "HZzeCzQOuvh", "name": "3. Concerns sexual health (6m)", "var": "Risk_8concerns" },
+    "4": { "deId": "Q2KRbrYIKHM", "name": "4. Had sex in past 6 months?", "var": "Risk_3sex6m" },
+    "5": { "deId": "tbhIV6y082E", "name": "5. Partner gender (multi)", "var": "Risk_5partnerGender", "note": "BOOLEAN multi on form; spec used 4.1-4.3 fields" },
+    "5alt": [
+      { "deId": "IjncwaiwvUv", "name": "4.1 partner Male" },
+      { "deId": "TlXvK6qrt1b", "name": "4.2 partner Female" },
+      { "deId": "G4r3E6LI70l", "name": "4.3 partner TGW" }
+    ],
+    "6": { "deId": "qa4gp2GMQUA", "name": "6. Number of partners (6m)", "var": "Risk_5partner" },
+    "7": { "deId": "d30ueni5gyM", "name": "7. Practices multi (legacy TEXT)", "var": null },
+    "7items": [
+      { "deId": "b5Jgn263AJT", "var": "Risk_61Receive money" },
+      { "deId": "BKILZQUFa2t", "var": "Risk_62Paidsex" },
+      { "deId": "bls0dsZMoRO", "var": "Risk_63Sexwith known" },
+      { "deId": "JhZONUgUE87", "var": "Risk_64Sexwithoutcondom" },
+      { "deId": "HnK9Yh1aWn1", "var": "Risk_65sti" },
+      { "deId": "nXk4YihKCF5", "var": "Risk_66abortion" },
+      { "deId": "fVWjzCcSCyF", "var": "Risk_67alcohol" },
+      { "deId": "FdYD7ISx2s6", "var": "Risk_68highfun" },
+      { "deId": "q4Xuew3y1c7", "var": "Risk_6.10-non above", "label": "7.11 Non-Above" }
+    ],
+    "8": { "deId": "sEspagSJHg6", "name": "8. Forced sex (6m)", "var": "Risk_7sexagainst" },
+    "9": { "deId": "ziEaDW60taC", "name": "9. Ever on PrEP?", "var": "Risk_9PrEP" },
+    "10": { "deId": "LTf9Uj5JnqN", "name": "10. Currently on PrEP", "var": "Risk_10onPrEP" },
+    "11": { "deId": "ARFp7wrxiFV", "name": "11. When last HIV test?", "var": "Risk_10HIV tested" },
+    "12": { "deId": "yWvKnLg2VRq", "name": "12. HIV test result", "var": "Risk_11HIVresult" },
+    "result": { "deId": "MBizmGFOeZg", "name": "Risk screening result", "var": null }
+  },
+  "variables": [
+    { "name": "Risk_1sex at birth", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "Lbi259Segyq" },
+    { "name": "Risk_2gender", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "Hvpk8CSzvWZ" },
+    { "name": "Risk_3sex6m", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "Q2KRbrYIKHM" },
+    { "name": "Risk_5partner", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "qa4gp2GMQUA" },
+    { "name": "Risk_6.10-non above", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "q4Xuew3y1c7" },
+    { "name": "Risk_61Receive money", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "b5Jgn263AJT" },
+    { "name": "Risk_62Paidsex", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "BKILZQUFa2t" },
+    { "name": "Risk_63Sexwith known", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "bls0dsZMoRO" },
+    { "name": "Risk_64Sexwithoutcondom", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "JhZONUgUE87" },
+    { "name": "Risk_65sti", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "HnK9Yh1aWn1" },
+    { "name": "Risk_66abortion", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "nXk4YihKCF5" },
+    { "name": "Risk_67alcohol", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "fVWjzCcSCyF" },
+    { "name": "Risk_68highfun", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "FdYD7ISx2s6" },
+    { "name": "Risk_7sexagainst", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "sEspagSJHg6" },
+    { "name": "Risk_8concerns", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "HZzeCzQOuvh" },
+    { "name": "Risk_9PrEP", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "ziEaDW60taC" },
+    { "name": "Risk_10onPrEP", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "LTf9Uj5JnqN" },
+    { "name": "Risk_10HIV tested", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "ARFp7wrxiFV" },
+    { "name": "Risk_11HIVresult", "sourceType": "DATAELEMENT_CURRENT_EVENT", "dataElementId": "yWvKnLg2VRq" }
+  ],
+  "rules": [
+    {
+      "name": "Risk_Q1_Female_hide_Male_TG_on_Q2",
+      "guide": "Q1 Female → limit Q2 options",
+      "condition": "#{Risk_1sex at birth} =='Female' || #{Risk_1sex at birth} =='ស្រី'",
+      "actions": [
+        { "type": "HIDEOPTION", "dataElementId": "Hvpk8CSzvWZ", "optionId": "y8WebMVNOK8" },
+        { "type": "HIDEOPTION", "dataElementId": "Hvpk8CSzvWZ", "optionId": "qi2LyOjsRD8" }
+      ]
+    },
+    {
+      "name": "Risk_Q1_Male_hide_abortion_and_Female_on_Q2",
+      "guide": "Q1 Male",
+      "condition": "#{Risk_1sex at birth} =='Male' || #{Risk_1sex at birth} =='ប្រុស'",
+      "actions": [
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "nXk4YihKCF5" },
+        { "type": "HIDEOPTION", "dataElementId": "Hvpk8CSzvWZ", "optionId": "lLVTd29Va0L" },
+        { "type": "HIDEFIELD", "dataElementId": "nXk4YihKCF5" }
+      ]
+    },
+    {
+      "name": "Risk_Q4_No_skip_5_6_8",
+      "guide": "Q4 No → skip #5, #6, #8",
+      "condition": "#{Risk_3sex6m} =='No' || #{Risk_3sex6m} =='ទេ'",
+      "actions": [
+        { "type": "HIDEFIELD", "dataElementId": "IjncwaiwvUv" },
+        { "type": "HIDEFIELD", "dataElementId": "TlXvK6qrt1b" },
+        { "type": "HIDEFIELD", "dataElementId": "G4r3E6LI70l" },
+        { "type": "HIDEFIELD", "dataElementId": "qa4gp2GMQUA" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "qa4gp2GMQUA" },
+        { "type": "HIDEFIELD", "dataElementId": "sEspagSJHg6" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "sEspagSJHg6" }
+      ]
+    },
+    {
+      "name": "Risk_Q7_Non_above_clear_section_7",
+      "guide": "Q7 Non-above checked",
+      "condition": "#{Risk_6.10-non above} ==true || #{Risk_6.10-non above} ==1",
+      "actions": [
+        { "type": "HIDEFIELD", "dataElementId": "b5Jgn263AJT" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "b5Jgn263AJT" },
+        { "type": "HIDEFIELD", "dataElementId": "BKILZQUFa2t" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "BKILZQUFa2t" },
+        { "type": "HIDEFIELD", "dataElementId": "bls0dsZMoRO" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "bls0dsZMoRO" },
+        { "type": "HIDEFIELD", "dataElementId": "JhZONUgUE87" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "JhZONUgUE87" },
+        { "type": "HIDEFIELD", "dataElementId": "HnK9Yh1aWn1" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "HnK9Yh1aWn1" },
+        { "type": "HIDEFIELD", "dataElementId": "nXk4YihKCF5" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "nXk4YihKCF5" },
+        { "type": "HIDEFIELD", "dataElementId": "fVWjzCcSCyF" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "fVWjzCcSCyF" },
+        { "type": "HIDEFIELD", "dataElementId": "FdYD7ISx2s6" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "FdYD7ISx2s6" }
+      ]
+    },
+    {
+      "name": "Risk_Q9_never_know_skip_Q10",
+      "guide": "Q9 Don't know about PrEP → skip Q10",
+      "condition": "#{Risk_9PrEP} =='12' || #{Risk_9PrEP} =='Never Know'",
+      "actions": [{ "type": "HIDEFIELD", "dataElementId": "LTf9Uj5JnqN" }]
+    },
+    {
+      "name": "Risk_Q10_on_PrEP_skip_Q11",
+      "guide": "Q10 Yes currently on PrEP → skip Q11",
+      "condition": "#{Risk_10onPrEP} ==true || #{Risk_10onPrEP} ==1",
+      "actions": [{ "type": "HIDEFIELD", "dataElementId": "ARFp7wrxiFV" }]
+    },
+    {
+      "name": "Risk_Q11_never_test_skip_Q12",
+      "guide": "Q11 Never test → skip Q12",
+      "condition": "#{Risk_10HIV tested}=='Never test' || #{Risk_10HIV tested}=='មិនធ្លាប់តេស្ត'",
+      "actions": [
+        { "type": "HIDEFIELD", "dataElementId": "yWvKnLg2VRq" },
+        { "type": "ASSIGN", "data": "\"\"", "dataElementId": "yWvKnLg2VRq" }
+      ]
+    },
+    {
+      "name": "Risk result is High Risk",
+      "guide": "Matrix High — keep existing long condition from production/spec",
+      "note": "Use condition from prevention-program-rules-spec.json; scoring may also set eEY6HLGq5FF",
+      "importConditionFrom": "prevention-program-rules-spec.json",
+      "importRuleName": "Risk result is High Risk"
+    },
+    {
+      "name": "Risk result is Medium Risk",
+      "importConditionFrom": "prevention-program-rules-spec.json",
+      "importRuleName": "Risk result is Medium Risk"
+    },
+    {
+      "name": "Risk result is Low Risk",
+      "importConditionFrom": "prevention-program-rules-spec.json",
+      "importRuleName": "Risk result is Low Risk"
+    }
+  ]
+}

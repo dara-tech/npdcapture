@@ -1,0 +1,2379 @@
+{
+  "programRuleVariables": [
+    {
+      "name": "ART DE",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "PUKzRWPVjmX"
+      },
+      "programStage": {
+        "id": "mX4OjpyZw3A"
+      },
+      "displayName": "ART DE",
+      "id": "YH0lpRYABrT",
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM_STAGE"
+    },
+    {
+      "name": "Anal warts",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "T7DubwPE1Ix"
+      },
+      "displayName": "Anal warts",
+      "id": "llXx28bbVAy",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Ano-scope exam",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "ntUBO6zlXeX"
+      },
+      "displayName": "Ano-scope exam",
+      "id": "Ow3ZfuE6lBS",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Attribute last modality",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "displayName": "Attribute last modality",
+      "id": "sGs7lUiGlSO",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "Ct64gKSOpVQ"
+      }
+    },
+    {
+      "name": "Bleeding Ano",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "ileZXUmflma"
+      },
+      "displayName": "Bleeding Ano",
+      "id": "fNHjd9gd4vx",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Blisters",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "Kl7Kj78JGQX"
+      },
+      "displayName": "Blisters",
+      "id": "ZTsaXyMCqTc",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "CAB allergy with PrEP",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "jIibrXKdYLA"
+      },
+      "displayName": "CAB allergy with PrEP",
+      "id": "G04Johr6gG3",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "CAB symptom",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Uk05EapmqQg"
+      },
+      "displayName": "CAB symptom",
+      "id": "ZC45mGCzdi0",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "CAB willing to use",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "jHDRKMpvzFr"
+      },
+      "displayName": "CAB willing to use",
+      "id": "nx2Yzn7by82",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Client choose PrEP modality",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "ADe33NgD6hc"
+      },
+      "displayName": "Client choose PrEP modality",
+      "id": "lDWhqOLmbwr",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Client require change PrEP Modality",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "sb1G5PLn92m"
+      },
+      "displayName": "Client require change PrEP Modality",
+      "id": "vMOOipc4FKO",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Client require to change PrEP modality",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "sb1G5PLn92m"
+      },
+      "displayName": "Client require to change PrEP modality",
+      "id": "UxyqwMBFcAJ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Creatinine clear",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "ZrrQJL3eMkM"
+      },
+      "displayName": "Creatinine clear",
+      "id": "wJ61qPQtDsP",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "DE modality",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "ljaGyg7JxlW"
+      },
+      "displayName": "DE modality",
+      "id": "gAlqMUhoth5",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Drug Allergy",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "uxwyBO5aXZJ"
+      },
+      "displayName": "Drug Allergy",
+      "id": "TSywfJPy4A1",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "F3 Restart PrEP",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "YlMcbE8ZLcu"
+      },
+      "displayName": "F3 Restart PrEP",
+      "id": "TMK9oi4JkYS",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "F5.Condition of continuing PrEP ",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "EDsUfe58dWl"
+      },
+      "displayName": "F5.Condition of continuing PrEP ",
+      "id": "Ws9ALl5x1Sd",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "F7 PrEP restart",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "YlMcbE8ZLcu"
+      },
+      "displayName": "F7 PrEP restart",
+      "id": "KYlK724ifoD",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "GIS DE-Hotspot Name",
+      "program": {
+        "displayName": "2.GIS Hotspot Mapping (GHOT)",
+        "id": "ldN05zjzXXu"
+      },
+      "dataElement": {
+        "id": "jCneFvHXgDk"
+      },
+      "displayName": "GIS DE-Hotspot Name",
+      "id": "FNYHVlDQxgk",
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM"
+    },
+    {
+      "name": "GIS PA Hotspot Name",
+      "program": {
+        "displayName": "2.GIS Hotspot Mapping (GHOT)",
+        "id": "ldN05zjzXXu"
+      },
+      "displayName": "GIS PA Hotspot Name",
+      "id": "pde9FdPpVJI",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "UD1QRHQ7dSO"
+      }
+    },
+    {
+      "name": "Kit_Client responding",
+      "program": {
+        "displayName": "8.HIVST Kit Delivery",
+        "id": "IKo5AyJnQB7"
+      },
+      "dataElement": {
+        "id": "p5L3ypCd8Mn"
+      },
+      "displayName": "Kit_Client responding",
+      "id": "e6715lREvRp",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Kit_HIVST Kit result voluntary",
+      "program": {
+        "displayName": "8.HIVST Kit Delivery",
+        "id": "IKo5AyJnQB7"
+      },
+      "dataElement": {
+        "id": "RFjUc5Y2lJC"
+      },
+      "displayName": "Kit_HIVST Kit result voluntary",
+      "id": "pXerMw9N3yS",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Kit_HIVST successfully",
+      "program": {
+        "displayName": "8.HIVST Kit Delivery",
+        "id": "IKo5AyJnQB7"
+      },
+      "dataElement": {
+        "id": "EJ9QdXWH4mM"
+      },
+      "displayName": "Kit_HIVST successfully",
+      "id": "dczjtBMNOpU",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Kit_contact date",
+      "program": {
+        "displayName": "8.HIVST Kit Delivery",
+        "id": "IKo5AyJnQB7"
+      },
+      "dataElement": {
+        "id": "G4jadcGMTgF"
+      },
+      "displayName": "Kit_contact date",
+      "id": "uHyisgfHLQT",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Last HIV Tested less than 6m",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "PbW9hGRYM8D"
+      },
+      "displayName": "Last HIV Tested less than 6m",
+      "id": "GwA27cl5n3h",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Last HIV Tested more than 6m",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "QQKcWnxtCyY"
+      },
+      "displayName": "Last HIV Tested more than 6m",
+      "id": "YBiQtefnZpW",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Lost to follow up-f8",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "WGkBf7RhOzp"
+      },
+      "displayName": "Lost to follow up-f8",
+      "id": "JnKWufS4xk3",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Next appointment Date",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "jLmirx3TTgI"
+      },
+      "displayName": "Next appointment Date",
+      "id": "fB0UHzDY1po",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "No Symptom",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "qAYQ4cJmCrO"
+      },
+      "displayName": "No Symptom",
+      "id": "wkq1oztOLxB",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Pain on deep palpation Diagnose",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "PEI79CSfemd"
+      },
+      "displayName": "Pain on deep palpation Diagnose",
+      "id": "mGqO8DiY96r",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP 2.1 in relationship",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "neHIr6ldfxE"
+      },
+      "displayName": "PrEP 2.1 in relationship",
+      "id": "YCYNMZp1uhM",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP 2.2 Engaged in",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "EeN4eROiz54"
+      },
+      "displayName": "PrEP 2.2 Engaged in",
+      "id": "PddJmua6mEX",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP 2.3 Exchanged any sex",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "sCOgmZEbpVG"
+      },
+      "displayName": "PrEP 2.3 Exchanged any sex",
+      "id": "EwvZG5rB6yv",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP 2.4 Used any drugs",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Vt32sVPUKRb"
+      },
+      "displayName": "PrEP 2.4 Used any drugs",
+      "id": "luGrpnKAhVS",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP 2.5 History of any STI",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "ehz4sQfusc8"
+      },
+      "displayName": "PrEP 2.5 History of any STI",
+      "id": "sRG1TFepP7h",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Any drug side effect",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "YbnyzyPBT68"
+      },
+      "displayName": "PrEP Any drug side effect",
+      "id": "HWodVo3xgpq",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Approval Status",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "CQHHLDYfD2i"
+      },
+      "displayName": "PrEP Approval Status",
+      "id": "a1aTWmSu0I8",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Arthralgia",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "wc6Di8vXPVW"
+      },
+      "displayName": "PrEP Arthralgia",
+      "id": "DS9XxW6iwcJ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP CAB Eligible",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Oqlgsr36QQm"
+      },
+      "displayName": "PrEP CAB Eligible",
+      "id": "OiZuOlVMYUn",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP CAB Eligible status",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Oqlgsr36QQm"
+      },
+      "displayName": "PrEP CAB Eligible status",
+      "id": "fBn7jaOyxlG",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP CAB PrEP Contraindication",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "cQiOTormaMn"
+      },
+      "displayName": "PrEP CAB PrEP Contraindication",
+      "id": "pxwJkjlLGgy",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP CAB transfer from Oral-DVR",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "G7tjoY3stgb"
+      },
+      "displayName": "PrEP CAB transfer from Oral-DVR",
+      "id": "RvVMiLeTV1g",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Chills",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "q8bboxDcNwe"
+      },
+      "displayName": "PrEP Chills",
+      "id": "TP4eAH52nyp",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Client require to change PrEP",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Utk4D72u4ZO"
+      },
+      "displayName": "PrEP Client require to change PrEP",
+      "id": "JgVigmwOrCo",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Code",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "displayName": "PrEP Code",
+      "id": "iff5OQdTkde",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "FUlNzi9Nq7i"
+      }
+    },
+    {
+      "name": "PrEP DVR Eligible",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "vY5um8XJcpJ"
+      },
+      "displayName": "PrEP DVR Eligible",
+      "id": "IGC6ATQZE9Q",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Diminished appetite",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "OYICHLCLLs0"
+      },
+      "displayName": "PrEP Diminished appetite",
+      "id": "ooTeXYLkXHZ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP F3 OW",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "h9vqaPKJaNo"
+      },
+      "displayName": "PrEP F3 OW",
+      "id": "y10y7SjDJHU",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Fever more than 38",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "omOiQjPzhgY"
+      },
+      "displayName": "PrEP Fever more than 38",
+      "id": "hHMuM3mudVg",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Form5 HIV-Ab",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "hSjyQR5IUb3"
+      },
+      "displayName": "PrEP Form5 HIV-Ab",
+      "id": "rKQvX9Urjg6",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP HCVAb",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "PJ5BeRj3Y0F"
+      },
+      "displayName": "PrEP HCVAb",
+      "id": "ReiETr04XD4",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP HIV-Ab Form05",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "hSjyQR5IUb3"
+      },
+      "displayName": "PrEP HIV-Ab Form05",
+      "id": "t2mvtyrjj8b",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP HIV-Ab Form7",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "hSjyQR5IUb3"
+      },
+      "displayName": "PrEP HIV-Ab Form7",
+      "id": "zDDzHp36tDZ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Hypertension",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "fS2XhVW9vWZ"
+      },
+      "displayName": "PrEP Hypertension",
+      "id": "lQoFyDnT8TM",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Kidney disease",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "kFTNiuBSlay"
+      },
+      "displayName": "PrEP Kidney disease",
+      "id": "QetyKxfsJuX",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Level Approval",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "MmFK8h7JvZQ"
+      },
+      "displayName": "PrEP Level Approval",
+      "id": "Lf7Tg8A8H6T",
+      "programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT"
+    },
+    {
+      "name": "PrEP Malaise",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "VJS4UYL77Ow"
+      },
+      "displayName": "PrEP Malaise",
+      "id": "zzRnVSBeToS",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Mental issues",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Gu7DWn9UiuO"
+      },
+      "displayName": "PrEP Mental issues",
+      "id": "i8Hx3NYe4hH",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Modalities Attribute",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "QL5EBw2zNZ5"
+      },
+      "displayName": "PrEP Modalities Attribute",
+      "id": "xYwI8f8bTvc",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "D7xpPXd6yMl"
+      }
+    },
+    {
+      "name": "PrEP Modality",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "QL5EBw2zNZ5"
+      },
+      "displayName": "PrEP Modality",
+      "id": "XoiTc3i3gFg",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Modality Approve",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Y4CApjEmZdn"
+      },
+      "displayName": "PrEP Modality Approve",
+      "id": "jJhv9J57f50",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Modality New client",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "QL5EBw2zNZ5"
+      },
+      "displayName": "PrEP Modality New client",
+      "id": "rJ4IyZDVkLi",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Modality refill client",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "j3MBYZMNsSZ"
+      },
+      "displayName": "PrEP Modality refill client",
+      "id": "orj1WclWLiD",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Myalgia",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "RXPcxuSxBlS"
+      },
+      "displayName": "PrEP Myalgia",
+      "id": "THklNMzBmjJ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Next Appointment Date",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "jLmirx3TTgI"
+      },
+      "displayName": "PrEP Next Appointment Date",
+      "id": "HAMKOdCjE6x",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Oral Eligible",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "C0LXiNE40eP"
+      },
+      "displayName": "PrEP Oral Eligible",
+      "id": "HhZwY0KDS9i",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Phone Number",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "DondkfCDR4I"
+      },
+      "programStage": {
+        "id": "AQ0I8NftOld"
+      },
+      "displayName": "PrEP Phone Number",
+      "id": "XLVKuSfkuiA",
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM_STAGE"
+    },
+    {
+      "name": "PrEP RPR",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "CLuPyPGxi9O"
+      },
+      "displayName": "PrEP RPR",
+      "id": "GUfVjzJoIOG",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Risk of HIV infection",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Erx1jpUs9ie"
+      },
+      "displayName": "PrEP Risk of HIV infection",
+      "id": "RPVMIQmX5Wp",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Sore throat Oral thrush",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "GjN3dU0Jcoz"
+      },
+      "displayName": "PrEP Sore throat Oral thrush",
+      "id": "KKi84vQgnvk",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP Swollen glands in the neck",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "XiclI8vqvqS"
+      },
+      "displayName": "PrEP Swollen glands in the neck",
+      "id": "Hacoep5WAAI",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP TEI attr OW",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "displayName": "PrEP TEI attr OW",
+      "id": "wiaDPJebacd",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "ylvG9X0NM4z"
+      }
+    },
+    {
+      "name": "PrEP UUIC",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "displayName": "PrEP UUIC",
+      "id": "hM10Th3Alo5",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "zIPLqQeF6H7"
+      }
+    },
+    {
+      "name": "PrEP Year DOB",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "displayName": "PrEP Year DOB",
+      "id": "VspXyXMzdIU",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "QwIVdXwwsXw"
+      }
+    },
+    {
+      "name": "PrEP appointment Date_Previous Visit",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "jLmirx3TTgI"
+      },
+      "displayName": "PrEP appointment Date_Previous Visit",
+      "id": "qwQFTgA2Cbo",
+      "programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT"
+    },
+    {
+      "name": "PrEP client visit type",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "gIOk0A7YJVb"
+      },
+      "displayName": "PrEP client visit type",
+      "id": "VplIeDEEuOE",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP dob",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "displayName": "PrEP dob",
+      "id": "BsuuGiOF1Of",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "QwIVdXwwsXw"
+      }
+    },
+    {
+      "name": "PrEP drug side effect",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "LVHZe1lKgmo"
+      },
+      "displayName": "PrEP drug side effect",
+      "id": "TgcKrTrDcRJ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP f2 15age",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "S8Q2eMcUCMN"
+      },
+      "displayName": "PrEP f2 15age",
+      "id": "WoVMIBWwGcv",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP f2 HIV test kit",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "GsyhT9n5V6u"
+      },
+      "displayName": "PrEP f2 HIV test kit",
+      "id": "MOlToyoDoSO",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP f2 HIV test result",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "zlEdiRfjoZw"
+      },
+      "displayName": "PrEP f2 HIV test result",
+      "id": "jhsTgwx6gFX",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP f2 eligible status",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "SWJun1NiZO8"
+      },
+      "displayName": "PrEP f2 eligible status",
+      "id": "varFOr6tGOW",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP f3 medical eligible status",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "LH075WK7JnZ"
+      },
+      "displayName": "PrEP f3 medical eligible status",
+      "id": "xdVYELQjGrn",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP f7 PrEP level newest",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "QlWavPPu7zC"
+      },
+      "displayName": "PrEP f7 PrEP level newest",
+      "id": "vEd1xcqm634",
+      "programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT"
+    },
+    {
+      "name": "PrEP f8 client choose condom",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "dIvrjyxR1fI"
+      },
+      "displayName": "PrEP f8 client choose condom",
+      "id": "rVR1LIhvwui",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP followup drug side effects",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "YbnyzyPBT68"
+      },
+      "displayName": "PrEP followup drug side effects",
+      "id": "rYSM2tu2xFY",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP reason to restart PrEP",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "MpyfZXTXeRH"
+      },
+      "displayName": "PrEP reason to restart PrEP",
+      "id": "oL9rHryOkN4",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP referral mode",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "eUOn5cTzJDU"
+      },
+      "displayName": "PrEP referral mode",
+      "id": "uU0pim5XUJ2",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP sex",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "displayName": "PrEP sex",
+      "id": "aJd7dTUJ2pR",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "BR1fUe7Nx8V"
+      }
+    },
+    {
+      "name": "PrEP syndrome",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Uk05EapmqQg"
+      },
+      "displayName": "PrEP syndrome",
+      "id": "TJQv7GEasx2",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP-F5-Status PrEP",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "diYrzpw2T6C"
+      },
+      "displayName": "PrEP-F5-Status PrEP",
+      "id": "DFifJXJ21UG",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP-F7-condition continue PrEP",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "EDsUfe58dWl"
+      },
+      "displayName": "PrEP-F7-condition continue PrEP",
+      "id": "OvyKF50pDCG",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP_All form 15 yrs",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "S8Q2eMcUCMN"
+      },
+      "displayName": "PrEP_All form 15 yrs",
+      "id": "mtg5FhHIDBu",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP_All form PEP",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "AIcvw476m03"
+      },
+      "displayName": "PrEP_All form PEP",
+      "id": "KQndIIRe1XO",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP_CAB Creatinine req",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "kEhlp4pgPl0"
+      },
+      "displayName": "PrEP_CAB Creatinine req",
+      "id": "fMiP7GuWWIj",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP_CAB Level",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "F0ZScLGJASK"
+      },
+      "displayName": "PrEP_CAB Level",
+      "id": "Tg7MH93Lc0X",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP_CAB TPHA",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "ifwUMM32kUf"
+      },
+      "displayName": "PrEP_CAB TPHA",
+      "id": "k5tpLTlpQYs",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP_CAB if retroviral syndrome",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Uk05EapmqQg"
+      },
+      "displayName": "PrEP_CAB if retroviral syndrome",
+      "id": "h6Fx9FU4iMY",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "PrEP_CAB_New-Restart-No",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "XMTpAqPSS9L"
+      },
+      "displayName": "PrEP_CAB_New-Restart-No",
+      "id": "ThVcYiXZCxD",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Pre confirm hiv result-F2 form",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "IYQYsPz7r0D"
+      },
+      "displayName": "Pre confirm hiv result-F2 form",
+      "id": "R9akCet0bMe",
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM"
+    },
+    {
+      "name": "Pre hiv result status-TEI",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "displayName": "Pre hiv result status-TEI",
+      "id": "iA3RMWRhOLn",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "T6sqn5XfL2z"
+      }
+    },
+    {
+      "name": "Prev KP Type",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "displayName": "Prev KP Type",
+      "id": "PwFzN1G8QdZ",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "tMRHTqExwBW"
+      }
+    },
+    {
+      "name": "Rapid HIV test",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "yokoGWCo5KN"
+      },
+      "displayName": "Rapid HIV test",
+      "id": "VPD7MMiPXaf",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Rapid Syphilis test",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "OOQ5tTk9B4r"
+      },
+      "displayName": "Rapid Syphilis test",
+      "id": "oFT1wSil6bs",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_10EverPrEP",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "ziEaDW60taC"
+      },
+      "displayName": "Risk_10EverPrEP",
+      "id": "l5vr9yhshGy",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_10HIV tested",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "ARFp7wrxiFV"
+      },
+      "displayName": "Risk_10HIV tested",
+      "id": "bkm1Me9LIOu",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_11HIVresult",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "yWvKnLg2VRq"
+      },
+      "displayName": "Risk_11HIVresult",
+      "id": "YHG3uz6GwUJ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_1sex at birth",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "Lbi259Segyq"
+      },
+      "displayName": "Risk_1sex at birth",
+      "id": "IAaO0x1Yti7",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_2identify gender",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "Hvpk8CSzvWZ"
+      },
+      "displayName": "Risk_2identify gender",
+      "id": "Cl3EyZltfbk",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_3sex6m",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "Q2KRbrYIKHM"
+      },
+      "displayName": "Risk_3sex6m",
+      "id": "S5pfhWP0qW0",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_41sexualmale",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "IjncwaiwvUv"
+      },
+      "displayName": "Risk_41sexualmale",
+      "id": "aBMFq8o4jVC",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_42sexualfemale",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "TlXvK6qrt1b"
+      },
+      "displayName": "Risk_42sexualfemale",
+      "id": "fUj3BpPXKuc",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_43sexualtgw",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "G4r3E6LI70l"
+      },
+      "displayName": "Risk_43sexualtgw",
+      "id": "z7Dc1XvG4VY",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_4practice",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "d30ueni5gyM"
+      },
+      "displayName": "Risk_4practice",
+      "id": "i7cMG4Pzu57",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_5partner",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "qa4gp2GMQUA"
+      },
+      "displayName": "Risk_5partner",
+      "id": "jo0axrsOaBY",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_6.10-non above",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "q4Xuew3y1c7"
+      },
+      "displayName": "Risk_6.10-non above",
+      "id": "NIENHzaPBrZ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_61Receive money",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "b5Jgn263AJT"
+      },
+      "displayName": "Risk_61Receive money",
+      "id": "o99yC1SR2Nh",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_62Paidsex",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "BKILZQUFa2t"
+      },
+      "displayName": "Risk_62Paidsex",
+      "id": "R2VOFo8YFN7",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_63Sexwith known",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "bls0dsZMoRO"
+      },
+      "displayName": "Risk_63Sexwith known",
+      "id": "OBUjTKTALvk",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_64Sexwithoutcondom",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "JhZONUgUE87"
+      },
+      "displayName": "Risk_64Sexwithoutcondom",
+      "id": "ns7Cehho9Cx",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_65sti",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "HnK9Yh1aWn1"
+      },
+      "displayName": "Risk_65sti",
+      "id": "HMAEpZC2OYt",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_66abortion",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "nXk4YihKCF5"
+      },
+      "displayName": "Risk_66abortion",
+      "id": "ii4uoq9AlAM",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_67alcohol",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "fVWjzCcSCyF"
+      },
+      "displayName": "Risk_67alcohol",
+      "id": "aw5cHDH7FP0",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_68highfun",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "FdYD7ISx2s6"
+      },
+      "displayName": "Risk_68highfun",
+      "id": "YysVaTl1tge",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_69injected",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "Mm3MCV89ukA"
+      },
+      "displayName": "Risk_69injected",
+      "id": "ArqpfFZm7FO",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_7sexagainst",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "sEspagSJHg6"
+      },
+      "displayName": "Risk_7sexagainst",
+      "id": "ueHmcqe7W6N",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_8concerns",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "HZzeCzQOuvh"
+      },
+      "displayName": "Risk_8concerns",
+      "id": "NYGMaFf4vUV",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Risk_9PrEP",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "LTf9Uj5JnqN"
+      },
+      "displayName": "Risk_9PrEP",
+      "id": "mjMavlvdj8R",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI UUIC",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "displayName": "STI UUIC",
+      "id": "Ll7gWuDqiW4",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "HIM2iwwsilC"
+      }
+    },
+    {
+      "name": "STI_1 Medicine",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "displayName": "STI_1 Medicine",
+      "id": "JmwIpVkWIa5",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Ano scope exam",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "ci6HmlKMyLf"
+      },
+      "displayName": "STI_Ano scope exam",
+      "id": "onk1WDxOQqJ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Attribute_Sex",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "displayName": "STI_Attribute_Sex",
+      "id": "whAZehrdfI7",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "BR1fUe7Nx8V"
+      }
+    },
+    {
+      "name": "STI_Cervical discharge exam",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "rs4WAe0zTaw"
+      },
+      "displayName": "STI_Cervical discharge exam",
+      "id": "aSRyXe47LQb",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Chief complaint of others symptoms",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "UepxfBlbGT0"
+      },
+      "displayName": "STI_Chief complaint of others symptoms",
+      "id": "wELpuMJ4epB",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Drug Allergy",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "uxwyBO5aXZJ"
+      },
+      "displayName": "STI_Drug Allergy",
+      "id": "LRTHFBbXNUi",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Follow up",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "U9uxqkbcT0v"
+      },
+      "displayName": "STI_Follow up",
+      "id": "bJHRJ8RI2Sk",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_General Observation_Anal area symp",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "oZdvjgkVPeb"
+      },
+      "displayName": "STI_General Observation_Anal area symp",
+      "id": "NTPA6GiKqfy",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_General Observation_head_neck sym",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "FSz0NqubUZ3"
+      },
+      "displayName": "STI_General Observation_head_neck sym",
+      "id": "mxp1EClGbAt",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_General Observation_inguinal symp",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "cf77LeF9HnO"
+      },
+      "displayName": "STI_General Observation_inguinal symp",
+      "id": "ndn3yKoe68I",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_General Observation_oropharynx symp",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "Ye6XRmw66Mo"
+      },
+      "displayName": "STI_General Observation_oropharynx symp",
+      "id": "jztg914aqIB",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_General Observation_skin sym",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "SeZiPmNAqOI"
+      },
+      "displayName": "STI_General Observation_skin sym",
+      "id": "r1jieiVZjIZ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_General observation",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "pNhBeBI5L3K"
+      },
+      "displayName": "STI_General observation",
+      "id": "SfDvXfxcNh3",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Genital area exam",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "ZqNwfY3yBfF"
+      },
+      "displayName": "STI_Genital area exam",
+      "id": "iurgXoEMbqL",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Has taken any treatment elsewhere before consulting",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "ViyieXRcn9c"
+      },
+      "displayName": "STI_Has taken any treatment elsewhere before consulting",
+      "id": "oIykR5iJYY7",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Last HIV tested less than 6 months",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "PbW9hGRYM8D"
+      },
+      "displayName": "STI_Last HIV tested less than 6 months",
+      "id": "OYdLsgL2Ld4",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Last HIV tested less than 6 months_syphilis",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "biG6i7ydZvf"
+      },
+      "displayName": "STI_Last HIV tested less than 6 months_syphilis",
+      "id": "EOPTq4vRTtt",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Last HIV tested more than 6 months",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "QQKcWnxtCyY"
+      },
+      "displayName": "STI_Last HIV tested more than 6 months",
+      "id": "NO9S6smqoBJ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Last HIV tested more than 6 months_syphilis",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "LYpCONpQ3Zc"
+      },
+      "displayName": "STI_Last HIV tested more than 6 months_syphilis",
+      "id": "XkDSc5H4abJ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Medicine 1",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "TRVMSFH513F"
+      },
+      "displayName": "STI_Medicine 1",
+      "id": "wwS1wLEjJir",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Medicine 2",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "qAlPDwXwSES"
+      },
+      "displayName": "STI_Medicine 2",
+      "id": "Stt032SxoBn",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Medicine 3",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "ZTPqu6Q56E7"
+      },
+      "displayName": "STI_Medicine 3",
+      "id": "FjpkDELeN7f",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Medicine 4",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "felYlHXMa2g"
+      },
+      "displayName": "STI_Medicine 4",
+      "id": "rh2JGRS4pHp",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Medicine 5",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "T3QRhdyzipz"
+      },
+      "displayName": "STI_Medicine 5",
+      "id": "pwGknlpQH8n",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Other Medicine name",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "r1OYDKCl2ck"
+      },
+      "displayName": "STI_Other Medicine name",
+      "id": "P7deGQnVfrO",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Other test_Anus",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "BtXZgruB3hO"
+      },
+      "displayName": "STI_Other test_Anus",
+      "id": "fMuNNaFrjCR",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Other test_Oral",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "XfWS76Up07B"
+      },
+      "displayName": "STI_Other test_Oral",
+      "id": "XWPLP0UEmyZ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Other test_Urethral",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "NayamnG4Q1P"
+      },
+      "displayName": "STI_Other test_Urethral",
+      "id": "BoxRVEpsAVo",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Other test_cervix",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "DY5lhiNfJ0M"
+      },
+      "displayName": "STI_Other test_cervix",
+      "id": "I0YR3b9vcuY",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Other tested",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "euWIj6VZTOg"
+      },
+      "displayName": "STI_Other tested",
+      "id": "bQak6xCbzbQ",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_PMRS",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "programStage": {
+        "id": "oj7dKrmA8eg"
+      },
+      "displayName": "STI_PMRS",
+      "id": "d0HGo1dlIg3",
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "BgdyE6A1zDD"
+      }
+    },
+    {
+      "name": "STI_PrEP",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "CJAgwN2mopE"
+      },
+      "displayName": "STI_PrEP",
+      "id": "QxuRN59AfZv",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Pregnant",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "bu8mghEsw1b"
+      },
+      "displayName": "STI_Pregnant",
+      "id": "jqcNZX7zAxe",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_RPR Tested",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "aizzZGFYykw"
+      },
+      "displayName": "STI_RPR Tested",
+      "id": "JnKrQnkumom",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Referal to",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "e7HM5v1sppY"
+      },
+      "displayName": "STI_Referal to",
+      "id": "mcK1xL81siy",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Speculum exam",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "b3Ap9TRtwBQ"
+      },
+      "displayName": "STI_Speculum exam",
+      "id": "g9dl7lsgdBt",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Vaginal discharge exam",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "v0NLzAGaQsx"
+      },
+      "displayName": "STI_Vaginal discharge exam",
+      "id": "lYW9v2fl0cT",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Wet Preparation ",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "XTm4ZotM3Te"
+      },
+      "displayName": "STI_Wet Preparation ",
+      "id": "ujIPkcs294H",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_Wet preparation exam",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "ZYvSJM6RRSW"
+      },
+      "displayName": "STI_Wet preparation exam",
+      "id": "rTtd3CY0kwB",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_diagnosis check",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "P3lG2LuS7Bq"
+      },
+      "displayName": "STI_diagnosis check",
+      "id": "eFayAOZ2JOt",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_referred by partner",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "hpHZyprlmC8"
+      },
+      "displayName": "STI_referred by partner",
+      "id": "pssgMtFGoNE",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_use contraindication",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "eZn2B1yLPgH"
+      },
+      "displayName": "STI_use contraindication",
+      "id": "VpC1pewycWy",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "STI_vulvar area symp",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "OOacB11Rk2Z"
+      },
+      "displayName": "STI_vulvar area symp",
+      "id": "c5CAyvr1FB8",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Type of visit Form 7",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "y5kKG9j7gQv"
+      },
+      "displayName": "Type of visit Form 7",
+      "id": "jry8W7uP9wY",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "Ulceration Ano",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "IQdj9J1XEUz"
+      },
+      "displayName": "Ulceration Ano",
+      "id": "llTuct8QCnY",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "VCode",
+      "program": {
+        "displayName": "1.Prevention Program",
+        "id": "gmO3xUubvMb"
+      },
+      "dataElement": {
+        "id": "bY57pYlts4n"
+      },
+      "displayName": "VCode",
+      "id": "TBH08xFksSH",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "discontinued-f8",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "Cg2ZqrKRIpw"
+      },
+      "displayName": "discontinued-f8",
+      "id": "l1P45VMRlxO",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "drop-out-f8",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "mBWTepqsFid"
+      },
+      "displayName": "drop-out-f8",
+      "id": "IZSpyPPDLFE",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "f3 PrEP Mode",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "fbJkY4tQcaK"
+      },
+      "displayName": "f3 PrEP Mode",
+      "id": "h29gRruvPPi",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "f3 PrEP level",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "nKgk7p8DfJ0"
+      },
+      "displayName": "f3 PrEP level",
+      "id": "t1a2FiXZAPe",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "f3.hiv-ab",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "hSjyQR5IUb3"
+      },
+      "displayName": "f3.hiv-ab",
+      "id": "rO6Nm8jTuCx",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "indication for PrEP",
+      "program": {
+        "displayName": "6.PrEP Program",
+        "id": "m3kadU3i29T"
+      },
+      "dataElement": {
+        "id": "AIcvw476m03"
+      },
+      "displayName": "indication for PrEP",
+      "id": "U9OrUtyxel4",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    },
+    {
+      "name": "sort of sex with clientsboyfriends",
+      "program": {
+        "displayName": "7.STI Program",
+        "id": "pj7yQcLrhE2"
+      },
+      "dataElement": {
+        "id": "SB4B6G9O0ie"
+      },
+      "displayName": "sort of sex with clientsboyfriends",
+      "id": "FG36aOnOShF",
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+    }
+  ]
+}

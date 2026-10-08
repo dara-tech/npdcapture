@@ -1,0 +1,2317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-10-01T04:09:41.999Z\n"
+"PO-Revision-Date: 2026-10-01T04:09:41.999Z\n"
+
+msgid "Fetching Patient Profile..."
+msgstr "Fetching Patient Profile..."
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Expand"
+msgstr "Expand"
+
+msgid "Collapse"
+msgstr "Collapse"
+
+msgid "Appointments & Follow-ups"
+msgstr "Appointments & Follow-ups"
+
+msgid "records"
+msgstr "records"
+
+msgid "Clients scheduled for clinical visits"
+msgstr "Clients scheduled for clinical visits"
+
+msgid "Export to CSV"
+msgstr "Export to CSV"
+
+msgid "Export"
+msgstr "Export"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "Appointed Today"
+msgstr "Appointed Today"
+
+msgid "Missed / Overdue"
+msgstr "Missed / Overdue"
+
+msgid "Search name, UUIC, phone..."
+msgstr "Search name, UUIC, phone..."
+
+msgid "Overdue {{days}} days"
+msgstr "Overdue {{days}} days"
+
+msgid "Today"
+msgstr "Today"
+
+msgid "No appointments scheduled for today"
+msgstr "No appointments scheduled for today"
+
+msgid "All scheduled follow-ups are up to date."
+msgstr "All scheduled follow-ups are up to date."
+
+msgid "No missed or overdue appointments"
+msgstr "No missed or overdue appointments"
+
+msgid "Great job! No clients have overdue follow-up dates."
+msgstr "Great job! No clients have overdue follow-up dates."
+
+msgid "Showing {{start}} - {{end}} / {{total}}"
+msgstr "Showing {{start}} - {{end}} / {{total}}"
+
+msgid "0 records"
+msgstr "0 records"
+
+msgid "Configure Columns"
+msgstr "Configure Columns"
+
+msgid "Select and reorder columns to display in your list."
+msgstr "Select and reorder columns to display in your list."
+
+msgid "Reset to Default"
+msgstr "Reset to Default"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Apply Changes"
+msgstr "Apply Changes"
+
+msgid "Exit Fullscreen"
+msgstr "Exit Fullscreen"
+
+msgid "Full Screen"
+msgstr "Full Screen"
+
+msgid "កាលបរិច្ឆេទ"
+msgstr "កាលបរិច្ឆេទ"
+
+msgid "ជ្រើសរើសកាលបរិច្ឆេទ"
+msgstr "ជ្រើសរើសកាលបរិច្ឆេទ"
+
+msgid "ត្រីមាស"
+msgstr "ត្រីមាស"
+
+msgid "ខែ"
+msgstr "ខែ"
+
+msgid "ឆ្នាំ"
+msgstr "ឆ្នាំ"
+
+msgid "កំណត់កាលបរិច្ឆេទ"
+msgstr "កំណត់កាលបរិច្ឆេទ"
+
+msgid "ជ្រើសរើសកាលបរិច្ឆេទ (Period)"
+msgstr "ជ្រើសរើសកាលបរិច្ឆេទ (Period)"
+
+msgid "ជ្រើសរើសខែ ឬកំណត់ចន្លោះកាលបរិច្ឆេទ"
+msgstr "ជ្រើសរើសខែ ឬកំណត់ចន្លោះកាលបរិច្ឆេទ"
+
+msgid "ជ្រើសរើសត្រីមាស ខែ ឆ្នាំ ឬកំណត់ចន្លោះថ្ងៃកាលបរិច្ឆេទ"
+msgstr "ជ្រើសរើសត្រីមាស ខែ ឆ្នាំ ឬកំណត់ចន្លោះថ្ងៃកាលបរិច្ឆេទ"
+
+msgid "Previous Year"
+msgstr "Previous Year"
+
+msgid "Next Year"
+msgstr "Next Year"
+
+msgid "ជ្រើសរើសទាំងអស់"
+msgstr "ជ្រើសរើសទាំងអស់"
+
+msgid "សម្អាត"
+msgstr "សម្អាត"
+
+msgid "ថ្ងៃចាប់ផ្តើម (Start Date)"
+msgstr "ថ្ងៃចាប់ផ្តើម (Start Date)"
+
+msgid "ថ្ងៃបញ្ចប់ (End Date)"
+msgstr "ថ្ងៃបញ្ចប់ (End Date)"
+
+msgid "ថ្ងៃចាប់ផ្តើមត្រូវតូចជាង ឬស្មើថ្ងៃបញ្ចប់"
+msgstr "ថ្ងៃចាប់ផ្តើមត្រូវតូចជាង ឬស្មើថ្ងៃបញ្ចប់"
+
+msgid "បង្ហាញតាមព្រឹត្តិការណ៍ (Event view)"
+msgstr "បង្ហាញតាមព្រឹត្តិការណ៍ (Event view)"
+
+msgid "បោះបង់"
+msgstr "បោះបង់"
+
+msgid "យល់ព្រម"
+msgstr "យល់ព្រម"
+
+msgid "Dark mode"
+msgstr "Dark mode"
+
+msgid "Light mode"
+msgstr "Light mode"
+
+msgid "Switch to light mode"
+msgstr "Switch to light mode"
+
+msgid "Switch to dark mode"
+msgstr "Switch to dark mode"
+
+msgid "Dark"
+msgstr "Dark"
+
+msgid "Light"
+msgstr "Light"
+
+msgid "Copied!"
+msgstr "Copied!"
+
+msgid "Copy to clipboard"
+msgstr "Copy to clipboard"
+
+msgid "Age"
+msgstr "Age"
+
+msgid "—"
+msgstr "—"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Failed to upload file"
+msgstr "Failed to upload file"
+
+msgid "Attached Image"
+msgstr "Attached Image"
+
+msgid "Attached File"
+msgstr "Attached File"
+
+msgid "Click to enlarge"
+msgstr "Click to enlarge"
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "No file attached"
+msgstr "No file attached"
+
+msgid "Uploading..."
+msgstr "Uploading..."
+
+msgid "Upload Image"
+msgstr "Upload Image"
+
+msgid "Upload File"
+msgstr "Upload File"
+
+msgid "Question"
+msgstr "Question"
+
+msgid "Answer"
+msgstr "Answer"
+
+msgid "Grouped by program section"
+msgstr "Grouped by program section"
+
+msgid "Client registration form"
+msgstr "Client registration form"
+
+msgid "Clinical form"
+msgstr "Clinical form"
+
+msgid "ថ្ងៃ ខែ ឆ្នាំ មកពិនិត្យ"
+msgstr "ថ្ងៃ ខែ ឆ្នាំ មកពិនិត្យ"
+
+msgid "Pick date"
+msgstr "Pick date"
+
+msgid "Form could not be displayed"
+msgstr "Form could not be displayed"
+
+msgid "Try again"
+msgstr "Try again"
+
+msgid "Show all medicines"
+msgstr "Show all medicines"
+
+msgid "Remove medicine {{index}}"
+msgstr "Remove medicine {{index}}"
+
+msgid "Add another medicine"
+msgstr "Add another medicine"
+
+msgid "{{current}} of {{max}}"
+msgstr "{{current}} of {{max}}"
+
+msgid "Add another medicine ({{current}} of {{max}})"
+msgstr "Add another medicine ({{current}} of {{max}})"
+
+msgid "Required fields missing"
+msgstr "Required fields missing"
+
+msgid "Complete these before marking the visit done."
+msgstr "Complete these before marking the visit done."
+
+msgid "Questionnaire"
+msgstr "Questionnaire"
+
+msgid "Enter an SMH code to search"
+msgstr "Enter an SMH code to search"
+
+msgid "SMH attribute is not configured for this program"
+msgstr "SMH attribute is not configured for this program"
+
+msgid "Organisation unit and program are required for search."
+msgstr "Organisation unit and program are required for search."
+
+msgid "No patient found for this SMH code"
+msgstr "No patient found for this SMH code"
+
+msgid "Search failed"
+msgstr "Search failed"
+
+msgid "SMH code…"
+msgstr "SMH code…"
+
+msgid "Partner SMH code"
+msgstr "Partner SMH code"
+
+msgid "Searching..."
+msgstr "Searching..."
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Partner profile"
+msgstr "Partner profile"
+
+msgid "{{count}} required left"
+msgid_plural "{{count}} required left"
+msgstr[0] "{{count}} required left"
+msgstr[1] "{{count}} required left"
+
+msgid "{{count}} selected"
+msgid_plural "{{count}} selected"
+msgstr[0] "{{count}} selected"
+msgstr[1] "{{count}} selected"
+
+msgid "Pagination"
+msgstr "Pagination"
+
+msgid "Previous Page"
+msgstr "Previous Page"
+
+msgid "Next Page"
+msgstr "Next Page"
+
+msgid "Section gate"
+msgstr "Section gate"
+
+msgid "Not answered"
+msgstr "Not answered"
+
+msgid "Age (completed years)"
+msgstr "Age (completed years)"
+
+msgid "e.g. 25"
+msgstr "e.g. 25"
+
+msgid "Or date of birth"
+msgstr "Or date of birth"
+
+msgid "Pick a date"
+msgstr "Pick a date"
+
+msgid "No options available"
+msgstr "No options available"
+
+msgid "Select..."
+msgstr "Select..."
+
+msgid "Search options"
+msgstr "Search options"
+
+msgid "Search…"
+msgstr "Search…"
+
+msgid "No results found."
+msgstr "No results found."
+
+msgid "Select or search from the list"
+msgstr "Select or search from the list"
+
+msgid "Search..."
+msgstr "Search..."
+
+msgid "Failed to load users"
+msgstr "Failed to load users"
+
+msgid "Disable user \"{{name}}\"?"
+msgstr "Disable user \"{{name}}\"?"
+
+msgid "Failed to disable user"
+msgstr "Failed to disable user"
+
+msgid ""
+"Choose which columns appear in the user list. Custom user attributes from "
+"DHIS2 are listed below built-in fields. Name, status, and actions are "
+"always shown."
+msgstr ""
+"Choose which columns appear in the user list. Custom user attributes from "
+"DHIS2 are listed below built-in fields. Name, status, and actions are "
+"always shown."
+
+msgid "Show API link"
+msgstr "Show API link"
+
+msgid "Copy API link"
+msgstr "Copy API link"
+
+msgid "Could not build import guide. Check your connection and try again."
+msgstr "Could not build import guide. Check your connection and try again."
+
+msgid "Import users"
+msgstr "Import users"
+
+msgid "Create"
+msgstr "Create"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid ""
+"Upload a file with one username per row (Users sheet). Matching accounts "
+"will be disabled in DHIS2 — same as delete in user management."
+msgstr ""
+"Upload a file with one username per row (Users sheet). Matching accounts "
+"will be disabled in DHIS2 — same as delete in user management."
+
+msgid ""
+"Upload a file with one username per row. Disabled accounts will be "
+"re-enabled (restored to active)."
+msgstr ""
+"Upload a file with one username per row. Disabled accounts will be "
+"re-enabled (restored to active)."
+
+msgid ""
+"Download the Excel guide first. Fill the Users sheet only — copy role, "
+"group, and organisation unit names from the other sheets. Import the same "
+".xlsx file or export the Users sheet as CSV."
+msgstr ""
+"Download the Excel guide first. Fill the Users sheet only — copy role, "
+"group, and organisation unit names from the other sheets. Import the same "
+".xlsx file or export the Users sheet as CSV."
+
+msgid "Preparing…"
+msgstr "Preparing…"
+
+msgid "Download import guide (.xlsx)"
+msgstr "Download import guide (.xlsx)"
+
+msgid "Choose file"
+msgstr "Choose file"
+
+msgid "{{count}} users ready to delete"
+msgid_plural "{{count}} users ready to delete"
+msgstr[0] "{{count}} users ready to delete"
+msgstr[1] "{{count}} users ready to delete"
+
+msgid "{{count}} users ready to enable"
+msgid_plural "{{count}} users ready to enable"
+msgstr[0] "{{count}} users ready to enable"
+msgstr[1] "{{count}} users ready to enable"
+
+msgid "{{count}} users ready to import"
+msgid_plural "{{count}} users ready to import"
+msgstr[0] "{{count}} users ready to import"
+msgstr[1] "{{count}} users ready to import"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Roles"
+msgstr "Roles"
+
+msgid "…and {{count}} more"
+msgid_plural "…and {{count}} more"
+msgstr[0] "…and {{count}} more"
+msgstr[1] "…and {{count}} more"
+
+msgid "Deleting {{done}} of {{total}}…"
+msgstr "Deleting {{done}} of {{total}}…"
+
+msgid "Enabling {{done}} of {{total}}…"
+msgstr "Enabling {{done}} of {{total}}…"
+
+msgid "Importing {{done}} of {{total}}…"
+msgstr "Importing {{done}} of {{total}}…"
+
+msgid "Deleted {{deleted}}, failed {{failed}}"
+msgstr "Deleted {{deleted}}, failed {{failed}}"
+
+msgid "Enabled {{enabled}}, failed {{failed}}"
+msgstr "Enabled {{enabled}}, failed {{failed}}"
+
+msgid "Created {{created}}, failed {{failed}}"
+msgstr "Created {{created}}, failed {{failed}}"
+
+msgid "Row {{line}}"
+msgstr "Row {{line}}"
+
+msgid "Delete {{count}} users"
+msgid_plural "Delete {{count}} users"
+msgstr[0] "Delete {{count}} users"
+msgstr[1] "Delete {{count}} users"
+
+msgid "Enable {{count}} users"
+msgid_plural "Enable {{count}} users"
+msgstr[0] "Enable {{count}} users"
+msgstr[1] "Enable {{count}} users"
+
+msgid "Import {{count}} users"
+msgid_plural "Import {{count}} users"
+msgstr[0] "Import {{count}} users"
+msgstr[1] "Import {{count}} users"
+
+msgid "Search to add…"
+msgstr "Search to add…"
+
+msgid "No matches."
+msgstr "No matches."
+
+msgid "Username is required."
+msgstr "Username is required."
+
+msgid "Password is required."
+msgstr "Password is required."
+
+msgid "Assign at least one organisation unit."
+msgstr "Assign at least one organisation unit."
+
+msgid "Failed to replicate user"
+msgstr "Failed to replicate user"
+
+msgid "New Username"
+msgstr "New Username"
+
+msgid "New Password"
+msgstr "New Password"
+
+msgid "Organisation units"
+msgstr "Organisation units"
+
+msgid "Search org units (type 2+ letters)…"
+msgstr "Search org units (type 2+ letters)…"
+
+msgid "Replicate"
+msgstr "Replicate"
+
+msgid "Please fix the highlighted fields."
+msgstr "Please fix the highlighted fields."
+
+msgid "User saved"
+msgstr "User saved"
+
+msgid "User created"
+msgstr "User created"
+
+msgid "Failed to save user"
+msgstr "Failed to save user"
+
+msgid "Select a user from the list."
+msgstr "Select a user from the list."
+
+msgid "New user"
+msgstr "New user"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "You have view-only access. Changes cannot be saved."
+msgstr "You have view-only access. Changes cannot be saved."
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "New password (leave blank to keep)"
+msgstr "New password (leave blank to keep)"
+
+msgid "Disabled"
+msgstr "Disabled"
+
+msgid "Profile"
+msgstr "Profile"
+
+msgid "First name"
+msgstr "First name"
+
+msgid "Last name"
+msgstr "Last name"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Phone"
+msgstr "Phone"
+
+msgid "User roles"
+msgstr "User roles"
+
+msgid "Required if no organisation unit is assigned."
+msgstr "Required if no organisation unit is assigned."
+
+msgid "Search roles…"
+msgstr "Search roles…"
+
+msgid "User groups"
+msgstr "User groups"
+
+msgid "Search groups…"
+msgstr "Search groups…"
+
+msgid "Required if no user role is assigned. Search and pick at least one site."
+msgstr "Required if no user role is assigned. Search and pick at least one site."
+
+msgid "Active"
+msgstr "Active"
+
+msgid "Last login"
+msgstr "Last login"
+
+msgid "User attributes"
+msgstr "User attributes"
+
+msgid "Select all"
+msgstr "Select all"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "No users found."
+msgstr "No users found."
+
+msgid "Select user"
+msgstr "Select user"
+
+msgid "More options"
+msgstr "More options"
+
+msgid "Replicate user"
+msgstr "Replicate user"
+
+msgid "Edit user"
+msgstr "Edit user"
+
+msgid "Disable user"
+msgstr "Disable user"
+
+msgid "Groups"
+msgstr "Groups"
+
+msgid "User Management"
+msgstr "User Management"
+
+msgid "ADD USER"
+msgstr "ADD USER"
+
+msgid "Org"
+msgstr "Org"
+
+msgid "Search users"
+msgstr "Search users"
+
+msgid "Export users"
+msgstr "Export users"
+
+msgid "Unknown role(s) — {{names}}"
+msgstr "Unknown role(s) — {{names}}"
+
+msgid "Unknown group(s) — {{names}}"
+msgstr "Unknown group(s) — {{names}}"
+
+msgid "Unknown organisation unit(s) — {{names}}"
+msgstr "Unknown organisation unit(s) — {{names}}"
+
+msgid "Assign at least one organisation unit or user role."
+msgstr "Assign at least one organisation unit or user role."
+
+msgid "Failed to create user"
+msgstr "Failed to create user"
+
+msgid "User not found."
+msgstr "User not found."
+
+msgid "Failed to enable user"
+msgstr "Failed to enable user"
+
+msgid "Import file is empty."
+msgstr "Import file is empty."
+
+msgid "No user rows found. Use the Users sheet with Username, Password, … headers."
+msgstr "No user rows found. Use the Users sheet with Username, Password, … headers."
+
+msgid "No file selected."
+msgstr "No file selected."
+
+msgid "Workbook has no \"{{sheet}}\" sheet."
+msgstr "Workbook has no \"{{sheet}}\" sheet."
+
+msgid "Male"
+msgstr "Male"
+
+msgid "Female"
+msgstr "Female"
+
+msgid "Gender"
+msgstr "Gender"
+
+msgid ""
+"Fill user rows below. Copy role and group names from the Roles and Groups "
+"sheets; copy organisation unit names from the Organisation units sheet "
+"(exact spelling)."
+msgstr ""
+"Fill user rows below. Copy role and group names from the Roles and Groups "
+"sheets; copy organisation unit names from the Organisation units sheet "
+"(exact spelling)."
+
+msgid ""
+"Multiple values — separate with a semicolon (;). Status — Active or "
+"Disabled. This sheet is the only one imported."
+msgstr ""
+"Multiple values — separate with a semicolon (;). Status — Active or "
+"Disabled. This sheet is the only one imported."
+
+msgid ""
+"To delete or re-enable users via import — choose Delete or Enable in the "
+"import dialog and list usernames only (other columns optional)."
+msgstr ""
+"To delete or re-enable users via import — choose Delete or Enable in the "
+"import dialog and list usernames only (other columns optional)."
+
+msgid "Copy to Users → Roles"
+msgstr "Copy to Users → Roles"
+
+msgid "Role ID (reference)"
+msgstr "Role ID (reference)"
+
+msgid "Copy to Users → Groups"
+msgstr "Copy to Users → Groups"
+
+msgid "Group ID (reference)"
+msgstr "Group ID (reference)"
+
+msgid "Copy to Users → Organisation units"
+msgstr "Copy to Users → Organisation units"
+
+msgid "Level"
+msgstr "Level"
+
+msgid "Org unit ID (reference)"
+msgstr "Org unit ID (reference)"
+
+msgid "Enter the DHIS2 server URL"
+msgstr "Enter the DHIS2 server URL"
+
+msgid "Enter username and password"
+msgstr "Enter username and password"
+
+msgid "Could not sign in"
+msgstr "Could not sign in"
+
+msgid "NPD Capture"
+msgstr "NPD Capture"
+
+msgid "Sign in with your DHIS2 account"
+msgstr "Sign in with your DHIS2 account"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Signing in..."
+msgstr "Signing in..."
+
+msgid "Sign in"
+msgstr "Sign in"
+
+msgid "Select organisation unit"
+msgstr "Select organisation unit"
+
+msgid "Select Site"
+msgstr "Select Site"
+
+msgid "Choose an organization unit to begin."
+msgstr "Choose an organization unit to begin."
+
+msgid "Filter sites..."
+msgstr "Filter sites..."
+
+msgid "No sites match."
+msgstr "No sites match."
+
+msgid "Select a target site for data capture."
+msgstr "Select a target site for data capture."
+
+msgid "All sites"
+msgstr "All sites"
+
+msgid "Apply Selection"
+msgstr "Apply Selection"
+
+msgid "Profile menu"
+msgstr "Profile menu"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Help"
+msgstr "Help"
+
+msgid "About DHIS2"
+msgstr "About DHIS2"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Failed to load setup metadata"
+msgstr "Failed to load setup metadata"
+
+msgid "Program"
+msgstr "Program"
+
+msgid "Show all events with all enrollment attributes"
+msgstr "Show all events with all enrollment attributes"
+
+msgid "ព្រឹត្តិការណ៍ (Event)"
+msgstr "ព្រឹត្តិការណ៍ (Event)"
+
+msgid "Appointments ({{today}} Today, {{missed}} Missed)"
+msgstr "Appointments ({{today}} Today, {{missed}} Missed)"
+
+msgid "Monthly Report"
+msgstr "Monthly Report"
+
+msgid "Select a period to view Monthly Report"
+msgstr "Select a period to view Monthly Report"
+
+msgid "Import records"
+msgstr "Import records"
+
+msgid "Switch to Event View"
+msgstr "Switch to Event View"
+
+msgid "Switch to Personnel View"
+msgstr "Switch to Personnel View"
+
+msgid "Configure"
+msgstr "Configure"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "ចុះឈ្មោះ"
+msgstr "ចុះឈ្មោះ"
+
+msgid "Load Error"
+msgstr "Load Error"
+
+msgid "Site"
+msgstr "Site"
+
+msgid "Registered Patients"
+msgstr "Registered Patients"
+
+msgid "Total Cohort"
+msgstr "Total Cohort"
+
+msgid "No categorical data element values recorded yet for this period."
+msgstr "No categorical data element values recorded yet for this period."
+
+msgid "Use the \"DE Explorer\" tab to search any Data Element."
+msgstr "Use the \"DE Explorer\" tab to search any Data Element."
+
+msgid "Data Element"
+msgstr "Data Element"
+
+msgid "entries"
+msgstr "entries"
+
+msgid "other options"
+msgstr "other options"
+
+msgid "Care & Clinical Stage Pathway"
+msgstr "Care & Clinical Stage Pathway"
+
+msgid "Cohort progression and retention across clinical stages"
+msgstr "Cohort progression and retention across clinical stages"
+
+msgid "Search Data Elements..."
+msgstr "Search Data Elements..."
+
+msgid "total values recorded in this period"
+msgstr "total values recorded in this period"
+
+msgid "Average"
+msgstr "Average"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Sum"
+msgstr "Sum"
+
+msgid "Proportion Distribution"
+msgstr "Proportion Distribution"
+
+msgid "No values recorded for this Data Element in the selected period."
+msgstr "No values recorded for this Data Element in the selected period."
+
+msgid "Select a Data Element from the list to view its distribution."
+msgstr "Select a Data Element from the list to view its distribution."
+
+msgid "Events"
+msgstr "Events"
+
+msgid "Registrations"
+msgstr "Registrations"
+
+msgid "event"
+msgstr "event"
+
+msgid "registration"
+msgstr "registration"
+
+msgid "Clinical DE Analytics"
+msgstr "Clinical DE Analytics"
+
+msgid "Activity & Timeline"
+msgstr "Activity & Timeline"
+
+msgid "All"
+msgstr "All"
+
+msgid "Enrollments"
+msgstr "Enrollments"
+
+msgid "Refresh Data"
+msgstr "Refresh Data"
+
+msgid "Live today"
+msgstr "Live today"
+
+msgid "This Week"
+msgstr "This Week"
+
+msgid "Current 7-day period"
+msgstr "Current 7-day period"
+
+msgid "This Month"
+msgstr "This Month"
+
+msgid "total month"
+msgstr "total month"
+
+msgid "active days with data"
+msgstr "active days with data"
+
+msgid "Daily Average & Peak"
+msgstr "Daily Average & Peak"
+
+msgid "/ day"
+msgstr "/ day"
+
+msgid "Peak"
+msgstr "Peak"
+
+msgid "No peak data"
+msgstr "No peak data"
+
+msgid "Monthly Events Timeline"
+msgstr "Monthly Events Timeline"
+
+msgid "Monthly Registrations Timeline"
+msgstr "Monthly Registrations Timeline"
+
+msgid "Weekly Events Timeline"
+msgstr "Weekly Events Timeline"
+
+msgid "Weekly Registrations Timeline"
+msgstr "Weekly Registrations Timeline"
+
+msgid "Daily Events Timeline"
+msgstr "Daily Events Timeline"
+
+msgid "Daily Registrations Timeline"
+msgstr "Daily Registrations Timeline"
+
+msgid "Aggregated totals per calendar month"
+msgstr "Aggregated totals per calendar month"
+
+msgid "Aggregated totals per 7-day calendar week"
+msgstr "Aggregated totals per 7-day calendar week"
+
+msgid "Hover over each day bar to view detailed metrics"
+msgstr "Hover over each day bar to view detailed metrics"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Day"
+msgstr "Day"
+
+msgid "Week"
+msgstr "Week"
+
+msgid "Month"
+msgstr "Month"
+
+msgid "Export CSV"
+msgstr "Export CSV"
+
+msgid "Loading analytics data..."
+msgstr "Loading analytics data..."
+
+msgid "No data available for this period."
+msgstr "No data available for this period."
+
+msgid "Peak Month"
+msgstr "Peak Month"
+
+msgid "Peak Week"
+msgstr "Peak Week"
+
+msgid "Peak Day"
+msgstr "Peak Day"
+
+msgid "Current"
+msgstr "Current"
+
+msgid "Total in Period"
+msgstr "Total in Period"
+
+msgid "Monthly Summary Data Table"
+msgstr "Monthly Summary Data Table"
+
+msgid "Weekly Summary Data Table"
+msgstr "Weekly Summary Data Table"
+
+msgid "Daily Summary Data Table"
+msgstr "Daily Summary Data Table"
+
+msgid "months with data"
+msgstr "months with data"
+
+msgid "weeks with data"
+msgstr "weeks with data"
+
+msgid "days with data"
+msgstr "days with data"
+
+msgid "Year"
+msgstr "Year"
+
+msgid "Date Range"
+msgstr "Date Range"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Day of Week"
+msgstr "Day of Week"
+
+msgid "Cumulative"
+msgstr "Cumulative"
+
+msgid "% of Total"
+msgstr "% of Total"
+
+msgid ""
+"Fields are locked while this visit is complete. Use the status button to "
+"mark incomplete before editing."
+msgstr ""
+"Fields are locked while this visit is complete. Use the status button to "
+"mark incomplete before editing."
+
+msgid "Refresh Report"
+msgstr "Refresh Report"
+
+msgid "Refresh"
+msgstr "Refresh"
+
+msgid "Print Official Report"
+msgstr "Print Official Report"
+
+msgid "Print Form"
+msgstr "Print Form"
+
+msgid "Aggregating monthly clinical records..."
+msgstr "Aggregating monthly clinical records..."
+
+msgid "Failed to load report data"
+msgstr "Failed to load report data"
+
+msgid "Total Unique Clients"
+msgstr "Total Unique Clients"
+
+msgid "Click to view clients list"
+msgstr "Click to view clients list"
+
+msgid "Unique Clients"
+msgstr "Unique Clients"
+
+msgid "new enrollments"
+msgstr "new enrollments"
+
+msgid "Consultations & Visits"
+msgstr "Consultations & Visits"
+
+msgid "Click to view consultations list"
+msgstr "Click to view consultations list"
+
+msgid "Consultations"
+msgstr "Consultations"
+
+msgid "completed"
+msgstr "completed"
+
+msgid "Total Tracked Entities"
+msgstr "Total Tracked Entities"
+
+msgid "Report Period"
+msgstr "Report Period"
+
+msgid "Biological Sex"
+msgstr "Biological Sex"
+
+msgid "Male Clients"
+msgstr "Male Clients"
+
+msgid "Female Clients"
+msgstr "Female Clients"
+
+msgid "Patient Type"
+msgstr "Patient Type"
+
+msgid "No population categories recorded"
+msgstr "No population categories recorded"
+
+msgid "All Stages"
+msgstr "All Stages"
+
+msgid "Data Element / Indicator"
+msgstr "Data Element / Indicator"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Click to view all respondents"
+msgstr "Click to view all respondents"
+
+msgid "Hide response breakdown"
+msgstr "Hide response breakdown"
+
+msgid "Show response breakdown"
+msgstr "Show response breakdown"
+
+msgid "No matching indicators found."
+msgstr "No matching indicators found."
+
+msgid "Toggle between Events and Enrollments View"
+msgstr "Toggle between Events and Enrollments View"
+
+msgid "ព្រឹត្តិការណ៍"
+msgstr "ព្រឹត្តិការណ៍"
+
+msgid "Print A4 (Print)"
+msgstr "Print A4 (Print)"
+
+msgid "Discard draft"
+msgstr "Discard draft"
+
+msgid "Failed to delete profile"
+msgstr "Failed to delete profile"
+
+msgid "Record deleted successfully"
+msgstr "Record deleted successfully"
+
+msgid "Failed to delete record"
+msgstr "Failed to delete record"
+
+msgid "Visit completed successfully"
+msgstr "Visit completed successfully"
+
+msgid ""
+"Could not complete visit. Fill required fields in open sections, save, then "
+"complete."
+msgstr ""
+"Could not complete visit. Fill required fields in open sections, save, then "
+"complete."
+
+msgid "Please save record before completing"
+msgstr "Please save record before completing"
+
+msgid "Failed to update visit status"
+msgstr "Failed to update visit status"
+
+msgid "Cannot complete visit"
+msgstr "Cannot complete visit"
+
+msgid ""
+"This visit is complete — mark it incomplete before saving. Use the status "
+"button in the toolbar."
+msgstr ""
+"This visit is complete — mark it incomplete before saving. Use the status "
+"button in the toolbar."
+
+msgid "ថ្ងៃ ខែ ឆ្នាំ មកពិនិត្យ មិនអាចតូចជាងថ្ងៃចុះឈ្មោះទេ ({{date}})"
+msgstr "ថ្ងៃ ខែ ឆ្នាំ មកពិនិត្យ មិនអាចតូចជាងថ្ងៃចុះឈ្មោះទេ ({{date}})"
+
+msgid "Changes saved successfully"
+msgstr "Changes saved successfully"
+
+msgid "Failed to save changes"
+msgstr "Failed to save changes"
+
+msgid "Patient Profile"
+msgstr "Patient Profile"
+
+msgid "This profile record is older than 2 weeks and can no longer be edited."
+msgstr "This profile record is older than 2 weeks and can no longer be edited."
+
+msgid "Delete profile"
+msgstr "Delete profile"
+
+msgid ""
+"Delete this person from the system? Enrollments and events will be removed "
+"if your account is allowed to do so. This cannot be undone."
+msgstr ""
+"Delete this person from the system? Enrollments and events will be removed "
+"if your account is allowed to do so. This cannot be undone."
+
+msgid "Deleting..."
+msgstr "Deleting..."
+
+msgid "Delete Record"
+msgstr "Delete Record"
+
+msgid "Cannot Delete Record"
+msgstr "Cannot Delete Record"
+
+msgid "Are you sure you want to delete this record?"
+msgstr "Are you sure you want to delete this record?"
+
+msgid "This record exceeds the 2-week deletion limit."
+msgstr "This record exceeds the 2-week deletion limit."
+
+msgid "Countdown (2-Week Limit)"
+msgstr "Countdown (2-Week Limit)"
+
+msgid "Allowed for Tracker Capture role"
+msgstr "Allowed for Tracker Capture role"
+
+msgid "Remaining"
+msgstr "Remaining"
+
+msgid "Day(s)"
+msgstr "Day(s)"
+
+msgid "Elapsed"
+msgstr "Elapsed"
+
+msgid "Created"
+msgstr "Created"
+
+msgid "Expires"
+msgstr "Expires"
+
+msgid "Exceeded 2-Week Window"
+msgstr "Exceeded 2-Week Window"
+
+msgid "days ago"
+msgstr "days ago"
+
+msgid ""
+"This record was created {{days}} days ago. Tracker Capture role can only "
+"delete records within 14 days of creation. Please contact a System "
+"Administrator if deletion is required."
+msgstr ""
+"This record was created {{days}} days ago. Tracker Capture role can only "
+"delete records within 14 days of creation. Please contact a System "
+"Administrator if deletion is required."
+
+msgid "Administrator Permission"
+msgstr "Administrator Permission"
+
+msgid "No time limit"
+msgstr "No time limit"
+
+msgid "Created Date"
+msgstr "Created Date"
+
+msgid "Days Since Creation"
+msgstr "Days Since Creation"
+
+msgid "Created today (0 days)"
+msgstr "Created today (0 days)"
+
+msgid "day(s) ago"
+msgstr "day(s) ago"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "There are validation warnings"
+msgstr "There are validation warnings"
+
+msgid "Complete anyway?"
+msgstr "Complete anyway?"
+
+msgid "Saving..."
+msgstr "Saving..."
+
+msgid "Success"
+msgstr "Success"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Entry Comments"
+msgstr "Entry Comments"
+
+msgid "This event is older than 2 weeks and can no longer be edited."
+msgstr "This event is older than 2 weeks and can no longer be edited."
+
+msgid ""
+"This visit is complete. Use the status button in the toolbar to mark it "
+"incomplete before editing."
+msgstr ""
+"This visit is complete. Use the status button in the toolbar to mark it "
+"incomplete before editing."
+
+msgid "Restored unsaved draft data"
+msgstr "Restored unsaved draft data"
+
+msgid "Must match program format"
+msgstr "Must match program format"
+
+msgid "Medicine rows ({{count}} slots)"
+msgid_plural "Medicine rows ({{count}} slots)"
+msgstr[0] "Medicine rows ({{count}} slots)"
+msgstr[1] "Medicine rows ({{count}} slots)"
+
+msgid "Community-based HIV prevention — risk assessment questionnaire"
+msgstr "Community-based HIV prevention — risk assessment questionnaire"
+
+msgid "Set client sex on profile to show male or female form"
+msgstr "Set client sex on profile to show male or female form"
+
+msgid "Clinical Record"
+msgstr "Clinical Record"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Completed event recorded"
+msgstr "Completed event recorded"
+
+msgid "In-progress event recorded"
+msgstr "In-progress event recorded"
+
+msgid "No events recorded yet"
+msgstr "No events recorded yet"
+
+msgid "View all {{count}} stages & forms in sidebar"
+msgid_plural "View all {{count}} stages & forms in sidebar"
+msgstr[0] "View all {{count}} stages & forms in sidebar"
+msgstr[1] "View all {{count}} stages & forms in sidebar"
+
+msgid "All Forms ({{count}})"
+msgid_plural "All Forms ({{count}})"
+msgstr[0] "All Forms ({{count}})"
+msgstr[1] "All Forms ({{count}})"
+
+msgid "Print Health Card & Summary"
+msgstr "Print Health Card & Summary"
+
+msgid "Save profile"
+msgstr "Save profile"
+
+msgid "Edit profile"
+msgstr "Edit profile"
+
+msgid "Completed"
+msgstr "Completed"
+
+msgid "Mark Complete"
+msgstr "Mark Complete"
+
+msgid "Save Entry"
+msgstr "Save Entry"
+
+msgid "Add New Entry"
+msgstr "Add New Entry"
+
+msgid "No records found for this stage"
+msgstr "No records found for this stage"
+
+msgid "Add an entry to start capturing data for this stage."
+msgstr "Add an entry to start capturing data for this stage."
+
+msgid "No Date"
+msgstr "No Date"
+
+msgid "COMPLETED"
+msgstr "COMPLETED"
+
+msgid "ACTIVE"
+msgstr "ACTIVE"
+
+msgid "No data values recorded"
+msgstr "No data values recorded"
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid "Profile Records"
+msgstr "Profile Records"
+
+msgid "Fields"
+msgstr "Fields"
+
+msgid "Locked (>14d)"
+msgstr "Locked (>14d)"
+
+msgid "Failed to load registration fields"
+msgstr "Failed to load registration fields"
+
+msgid ""
+"Organisation unit must have a code in DHIS2 to generate SMH (SMH + unit "
+"code + sequence)."
+msgstr ""
+"Organisation unit must have a code in DHIS2 to generate SMH (SMH + unit "
+"code + sequence)."
+
+msgid "SMH code must match SMH{{unitCode}}-###### (6-digit sequence)."
+msgstr "SMH code must match SMH{{unitCode}}-###### (6-digit sequence)."
+
+msgid "Registration successful"
+msgstr "Registration successful"
+
+msgid "Registration failed"
+msgstr "Registration failed"
+
+msgid ""
+"This usually means an old app build is installed, or the server used the "
+"legacy registration API. Reinstall the latest Capture app zip and ensure "
+"POST /api/tracker is allowed for your user."
+msgstr ""
+"This usually means an old app build is installed, or the server used the "
+"legacy registration API. Reinstall the latest Capture app zip and ensure "
+"POST /api/tracker is allowed for your user."
+
+msgid "Preparing Registration Form..."
+msgstr "Preparing Registration Form..."
+
+msgid "This value is assigned automatically"
+msgstr "This value is assigned automatically"
+
+msgid "Registration"
+msgstr "Registration"
+
+msgid "Possible Duplicate Records Found ({{count}} matching clients)"
+msgid_plural "Possible Duplicate Records Found ({{count}} matching clients)"
+msgstr[0] "Possible Duplicate Records Found ({{count}} matching clients)"
+msgstr[1] "Possible Duplicate Records Found ({{count}} matching clients)"
+
+msgid "Verify personnel details before registration"
+msgstr "Verify personnel details before registration"
+
+msgid "yrs"
+msgstr "yrs"
+
+msgid "Client Record"
+msgstr "Client Record"
+
+msgid "Visits"
+msgstr "Visits"
+
+msgid "Identifiers"
+msgstr "Identifiers"
+
+msgid "Personal Information"
+msgstr "Personal Information"
+
+msgid "Additional Information"
+msgstr "Additional Information"
+
+msgid "Save Profile"
+msgstr "Save Profile"
+
+msgid "Clinical Stages"
+msgstr "Clinical Stages"
+
+msgid "Close sidebar"
+msgstr "Close sidebar"
+
+msgid "Filter stages..."
+msgstr "Filter stages..."
+
+msgid "Client Profile"
+msgstr "Client Profile"
+
+msgid "Initial & Baseline"
+msgstr "Initial & Baseline"
+
+msgid "Follow-up & Lab"
+msgstr "Follow-up & Lab"
+
+msgid "Case Management"
+msgstr "Case Management"
+
+msgid "Program rules"
+msgstr "Program rules"
+
+msgid "Maintenance"
+msgstr "Maintenance"
+
+msgid "Rules"
+msgstr "Rules"
+
+msgid "Variables"
+msgstr "Variables"
+
+msgid "All rules"
+msgstr "All rules"
+
+msgid "Data element rules"
+msgstr "Data element rules"
+
+msgid "Search name, id, condition, actions…"
+msgstr "Search name, id, condition, actions…"
+
+msgid "Search program rules"
+msgstr "Search program rules"
+
+msgid "Actions in Maintenance not executed here"
+msgstr "Actions in Maintenance not executed here"
+
+msgid ""
+"These program rule actions exist in your program but this app does not "
+"apply them yet (DHIS2 server or full Capture still can)."
+msgstr ""
+"These program rule actions exist in your program but this app does not "
+"apply them yet (DHIS2 server or full Capture still can)."
+
+msgid "Parity with Program Rule Maintenance"
+msgstr "Parity with Program Rule Maintenance"
+
+msgid "Actions implemented in this app"
+msgstr "Actions implemented in this app"
+
+msgid "Actions only in Maintenance / server (not here)"
+msgstr "Actions only in Maintenance / server (not here)"
+
+msgid "Conditions (legacy evaluator)"
+msgstr "Conditions (legacy evaluator)"
+
+msgid "Program rule variables"
+msgstr "Program rule variables"
+
+msgid "No rules match your search."
+msgstr "No rules match your search."
+
+msgid "Unnamed rule"
+msgstr "Unnamed rule"
+
+msgid "Priority"
+msgstr "Priority"
+
+msgid "Stage"
+msgstr "Stage"
+
+msgid "Condition"
+msgstr "Condition"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "No variables match your search."
+msgstr "No variables match your search."
+
+msgid "Source"
+msgstr "Source"
+
+msgid ""
+"Press Esc to close. Rules follow server configuration; editing is in "
+"Maintenance."
+msgstr ""
+"Press Esc to close. Rules follow server configuration; editing is in "
+"Maintenance."
+
+msgid "Browse program rules"
+msgstr "Browse program rules"
+
+msgid "{{count}} personnel deleted"
+msgid_plural "{{count}} personnel deleted"
+msgstr[0] "{{count}} personnel deleted"
+msgstr[1] "{{count}} personnel deleted"
+
+msgid "Deleted {{ok}} of {{total}}. {{failed}} failed."
+msgstr "Deleted {{ok}} of {{total}}. {{failed}} failed."
+
+msgid "Bulk delete personnel"
+msgstr "Bulk delete personnel"
+
+msgid ""
+"You are about to permanently delete {{count}} personnel. Enrollments and "
+"events will be removed if your account is allowed to do so. This cannot be "
+"undone."
+msgid_plural ""
+"You are about to permanently delete {{count}} personnel. Enrollments and "
+"events will be removed if your account is allowed to do so. This cannot be "
+"undone."
+msgstr[0] ""
+"You are about to permanently delete {{count}} personnel. Enrollments and "
+"events will be removed if your account is allowed to do so. This cannot be "
+"undone."
+msgstr[1] ""
+"You are about to permanently delete {{count}} personnel. Enrollments and "
+"events will be removed if your account is allowed to do so. This cannot be "
+"undone."
+
+msgid "Clear All"
+msgstr "Clear All"
+
+msgid "Dismiss"
+msgstr "Dismiss"
+
+msgid "Clear selection"
+msgstr "Clear selection"
+
+msgid "Delete selected"
+msgstr "Delete selected"
+
+msgid "Event History"
+msgstr "Event History"
+
+msgid "Screening"
+msgstr "Screening"
+
+msgid "No date"
+msgstr "No date"
+
+msgid "ស្ថានភាព"
+msgstr "ស្ថានភាព"
+
+msgid "No events found."
+msgstr "No events found."
+
+msgid "View Full Profile"
+msgstr "View Full Profile"
+
+msgid "Close History"
+msgstr "Close History"
+
+msgid "Choose a file with at least one data row below the header."
+msgstr "Choose a file with at least one data row below the header."
+
+msgid "Select an organisation unit in the main page filters."
+msgstr "Select an organisation unit in the main page filters."
+
+msgid "Select a program in the main page filters."
+msgstr "Select a program in the main page filters."
+
+msgid ""
+"This program has no tracked entity type. Re-select the program in the "
+"filters."
+msgstr ""
+"This program has no tracked entity type. Re-select the program in the "
+"filters."
+
+msgid "Select a program stage above."
+msgstr "Select a program stage above."
+
+msgid ""
+"No rows found in this file. Use the downloaded template, add data under the "
+"header row, and include eventDate for visits."
+msgstr ""
+"No rows found in this file. Use the downloaded template, add data under the "
+"header row, and include eventDate for visits."
+
+msgid ""
+"No importable rows. Add data from row 3 onward (row 2 is the example), "
+"include profile fields and eventDate for visits, or re-download the "
+"template."
+msgstr ""
+"No importable rows. Add data from row 3 onward (row 2 is the example), "
+"include profile fields and eventDate for visits, or re-download the "
+"template."
+
+msgid "Download template · fill from row 3 · import file below"
+msgstr "Download template · fill from row 3 · import file below"
+
+msgid "Template column settings"
+msgstr "Template column settings"
+
+msgid "Import in progress — please wait"
+msgstr "Import in progress — please wait"
+
+msgid "Personnel"
+msgstr "Personnel"
+
+msgid "Profile + stage"
+msgstr "Profile + stage"
+
+msgid "Stage only"
+msgstr "Stage only"
+
+msgid "Program stage"
+msgstr "Program stage"
+
+msgid "Select stage"
+msgstr "Select stage"
+
+msgid "This program has no stages configured."
+msgstr "This program has no stages configured."
+
+msgid "Step 1 — Download template"
+msgstr "Step 1 — Download template"
+
+msgid "Excel (.xlsx)"
+msgstr "Excel (.xlsx)"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "Step 2 — Import file"
+msgstr "Step 2 — Import file"
+
+msgid "Reading file…"
+msgstr "Reading file…"
+
+msgid "Drop file here or click to browse"
+msgstr "Drop file here or click to browse"
+
+msgid "CSV, Excel (.xlsx), or JSON"
+msgstr "CSV, Excel (.xlsx), or JSON"
+
+msgid "Skip rows after header"
+msgstr "Skip rows after header"
+
+msgid "(default {{count}} = template example row)"
+msgid_plural "(default {{count}} = template example row)"
+msgstr[0] "(default {{count}} = template example row)"
+msgstr[1] "(default {{count}} = template example row)"
+
+msgid ""
+"Row 2 is an example — add your data from row 3, or increase skip rows if "
+"your file has extra header lines. Empty Yes/No = No (ទេ). Excel template "
+"uses Khmer OS font."
+msgstr ""
+"Row 2 is an example — add your data from row 3, or increase skip rows if "
+"your file has extra header lines. Empty Yes/No = No (ទេ). Excel template "
+"uses Khmer OS font."
+
+msgid "{{count}} profile + stage rows ready"
+msgid_plural "{{count}} profile + stage rows ready"
+msgstr[0] "{{count}} profile + stage rows ready"
+msgstr[1] "{{count}} profile + stage rows ready"
+
+msgid "{{count}} visits ready to import"
+msgid_plural "{{count}} visits ready to import"
+msgstr[0] "{{count}} visits ready to import"
+msgstr[1] "{{count}} visits ready to import"
+
+msgid "{{count}} records ready to import"
+msgid_plural "{{count}} records ready to import"
+msgstr[0] "{{count}} records ready to import"
+msgstr[1] "{{count}} records ready to import"
+
+msgid "Row summary"
+msgstr "Row summary"
+
+msgid "Visit"
+msgstr "Visit"
+
+msgid "Attributes"
+msgstr "Attributes"
+
+msgid "profile"
+msgstr "profile"
+
+msgid "field(s)"
+msgstr "field(s)"
+
+msgid "{{registered}} registered, {{visits}} visits, {{failed}} failed"
+msgstr "{{registered}} registered, {{visits}} visits, {{failed}} failed"
+
+msgid "{{created}} created, {{failed}} failed"
+msgstr "{{created}} created, {{failed}} failed"
+
+msgid "Row {{line}} — {{message}}"
+msgstr "Row {{line}} — {{message}}"
+
+msgid "Please wait…"
+msgstr "Please wait…"
+
+msgid "Importing…"
+msgstr "Importing…"
+
+msgid "Retry import ({{count}} rows)"
+msgid_plural "Retry import ({{count}} rows)"
+msgstr[0] "Retry import ({{count}} rows)"
+msgstr[1] "Retry import ({{count}} rows)"
+
+msgid "Retry import ({{count}} visits)"
+msgid_plural "Retry import ({{count}} visits)"
+msgstr[0] "Retry import ({{count}} visits)"
+msgstr[1] "Retry import ({{count}} visits)"
+
+msgid "Retry import ({{count}} records)"
+msgid_plural "Retry import ({{count}} records)"
+msgstr[0] "Retry import ({{count}} records)"
+msgstr[1] "Retry import ({{count}} records)"
+
+msgid "Import {{count}} rows"
+msgid_plural "Import {{count}} rows"
+msgstr[0] "Import {{count}} rows"
+msgstr[1] "Import {{count}} rows"
+
+msgid "Import {{count}} visits"
+msgid_plural "Import {{count}} visits"
+msgstr[0] "Import {{count}} visits"
+msgstr[1] "Import {{count}} visits"
+
+msgid "Import {{count}} records"
+msgid_plural "Import {{count}} records"
+msgstr[0] "Import {{count}} records"
+msgstr[1] "Import {{count}} records"
+
+msgid "Template columns"
+msgstr "Template columns"
+
+msgid "{{profile}} profile · {{stage}} visit"
+msgstr "{{profile}} profile · {{stage}} visit"
+
+msgid "Profile attributes"
+msgstr "Profile attributes"
+
+msgid "None"
+msgstr "None"
+
+msgid "Yes/No — optional in file (default No)"
+msgstr "Yes/No — optional in file (default No)"
+
+msgid "Required"
+msgstr "Required"
+
+msgid "Visit form fields"
+msgstr "Visit form fields"
+
+msgid "No fields available for this import type."
+msgstr "No fields available for this import type."
+
+msgid "Failed to access camera. Please check camera permissions."
+msgstr "Failed to access camera. Please check camera permissions."
+
+msgid "No QR code or barcode found in image. Please try another image."
+msgstr "No QR code or barcode found in image. Please try another image."
+
+msgid "Clipboard is empty or contains no QR image / code."
+msgstr "Clipboard is empty or contains no QR image / code."
+
+msgid "Clipboard permission not granted. Use Ctrl+V or upload an image."
+msgstr "Clipboard permission not granted. Use Ctrl+V or upload an image."
+
+msgid "Scan Client Card"
+msgstr "Scan Client Card"
+
+msgid "Scan QR code, upload image, or paste clipboard"
+msgstr "Scan QR code, upload image, or paste clipboard"
+
+msgid "Decoding QR Code..."
+msgstr "Decoding QR Code..."
+
+msgid "Retry Camera"
+msgstr "Retry Camera"
+
+msgid "Paste Clipboard"
+msgstr "Paste Clipboard"
+
+msgid "Scanned Successfully!"
+msgstr "Scanned Successfully!"
+
+msgid "Paste from Clipboard (Ctrl+V)"
+msgstr "Paste from Clipboard (Ctrl+V)"
+
+msgid "Paste"
+msgstr "Paste"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Switch Camera"
+msgstr "Switch Camera"
+
+msgid "Or enter code / scan via USB..."
+msgstr "Or enter code / scan via USB..."
+
+msgid "Advanced Search"
+msgstr "Advanced Search"
+
+msgid "active"
+msgstr "active"
+
+msgid "Filter across all program attributes directly or enter global keywords."
+msgstr "Filter across all program attributes directly or enter global keywords."
+
+msgid "Global Search"
+msgstr "Global Search"
+
+msgid "Search across all fields (name, code, phone, notes)..."
+msgstr "Search across all fields (name, code, phone, notes)..."
+
+msgid "Scan QR / Barcode"
+msgstr "Scan QR / Barcode"
+
+msgid "Scan"
+msgstr "Scan"
+
+msgid "Filter by Attributes"
+msgstr "Filter by Attributes"
+
+msgid "No attributes available for this program."
+msgstr "No attributes available for this program."
+
+msgid "Any"
+msgstr "Any"
+
+msgid "Clear this field"
+msgstr "Clear this field"
+
+msgid "Pick date..."
+msgstr "Pick date..."
+
+msgid "Enter value..."
+msgstr "Enter value..."
+
+msgid "Apply Search"
+msgstr "Apply Search"
+
+msgid "No visits"
+msgstr "No visits"
+
+msgid "Select all on this page"
+msgstr "Select all on this page"
+
+msgid "កាលបរិច្ឆេទចុះឈ្មោះ"
+msgstr "កាលបរិច្ឆេទចុះឈ្មោះ"
+
+msgid "ធ្វើបច្ចុប្បន្នភាពថ្មីៗ"
+msgstr "ធ្វើបច្ចុប្បន្នភាពថ្មីៗ"
+
+msgid "ការមកពិនិត្យ"
+msgstr "ការមកពិនិត្យ"
+
+msgid "Select row"
+msgstr "Select row"
+
+msgid "Select all pending visits on this page"
+msgstr "Select all pending visits on this page"
+
+msgid "Expand Stage column"
+msgstr "Expand Stage column"
+
+msgid "Collapse Stage column"
+msgstr "Collapse Stage column"
+
+msgid "សកម្មភាព"
+msgstr "សកម្មភាព"
+
+msgid "បានបញ្ចប់"
+msgstr "បានបញ្ចប់"
+
+msgid "សកម្ម"
+msgstr "សកម្ម"
+
+msgid "បានកំណត់ពេល"
+msgstr "បានកំណត់ពេល"
+
+msgid "បានរំលង"
+msgstr "បានរំលង"
+
+msgid "ហួសកាលកំណត់"
+msgstr "ហួសកាលកំណត់"
+
+msgid "Select visit for bulk approval"
+msgstr "Select visit for bulk approval"
+
+msgid "ការចុះឈ្មោះ (Enrollment)"
+msgstr "ការចុះឈ្មោះ (Enrollment)"
+
+msgid "ទំនាក់ទំនងទាំងអស់"
+msgstr "ទំនាក់ទំនងទាំងអស់"
+
+msgid "Unnamed client"
+msgstr "Unnamed client"
+
+msgid "បញ្ចប់"
+msgstr "បញ្ចប់"
+
+msgid "No personnel found"
+msgstr "No personnel found"
+
+msgid "Refine your filters or search terms to see results."
+msgstr "Refine your filters or search terms to see results."
+
+msgid "Showing"
+msgstr "Showing"
+
+msgid "ក្នុងមួយទំព័រ"
+msgstr "ក្នុងមួយទំព័រ"
+
+msgid "Loading Records"
+msgstr "Loading Records"
+
+msgid "បានបោះបង់"
+msgstr "បានបោះបង់"
+
+msgid "មិនទាន់បានចុះឈ្មោះ"
+msgstr "មិនទាន់បានចុះឈ្មោះ"
+
+msgid "Multiple people match {{field}} \"{{value}}\". Use tracked entity ID."
+msgstr "Multiple people match {{field}} \"{{value}}\". Use tracked entity ID."
+
+msgid "Could not find or create enrollment for this person."
+msgstr "Could not find or create enrollment for this person."
+
+msgid "Person reference is empty."
+msgstr "Person reference is empty."
+
+msgid ""
+"Person \"{{ref}}\" is not a tracked entity ID and no link attribute (e.g. "
+"SMH) is configured."
+msgstr ""
+"Person \"{{ref}}\" is not a tracked entity ID and no link attribute (e.g. "
+"SMH) is configured."
+
+msgid "No person found with identifier \"{{ref}}\"."
+msgstr "No person found with identifier \"{{ref}}\"."
+
+msgid "Multiple people match \"{{ref}}\". Use tracked entity ID."
+msgstr "Multiple people match \"{{ref}}\". Use tracked entity ID."
+
+msgid "Row {{line}} — missing required field(s) — {{fields}}"
+msgstr "Row {{line}} — missing required field(s) — {{fields}}"
+
+msgid ""
+"Could not register or find a person for this row. Add profile fields or an "
+"existing SMH / tracked entity ID."
+msgstr ""
+"Could not register or find a person for this row. Add profile fields or an "
+"existing SMH / tracked entity ID."
+
+msgid "Row {{line}} — person already exists — registered a new visit only."
+msgstr "Row {{line}} — person already exists — registered a new visit only."
+
+msgid "Row {{line}} — person already exists — no visit data in this row."
+msgstr "Row {{line}} — person already exists — no visit data in this row."
+
+msgid "Row {{line}} — profile already exists — visit was created."
+msgstr "Row {{line}} — profile already exists — visit was created."
+
+msgid "Visit import failed"
+msgstr "Visit import failed"
+
+msgid "Import failed"
+msgstr "Import failed"
+
+msgid "trackedEntity"
+msgstr "trackedEntity"
+
+msgid "Invalid value"
+msgstr "Invalid value"
+
+msgid "Choose a value from the dropdown list."
+msgstr "Choose a value from the dropdown list."
+
+msgid "Required on import (column name has no *)."
+msgstr "Required on import (column name has no *)."
+
+msgid ""
+"Leave blank to auto-generate from last name, first name, sex, and date of "
+"birth (same as registration). Khmer names — filled on import; row {{row}} "
+"shows a sample."
+msgstr ""
+"Leave blank to auto-generate from last name, first name, sex, and date of "
+"birth (same as registration). Khmer names — filled on import; row {{row}} "
+"shows a sample."
+
+msgid "No profile or stage columns found. Download the profile + stage template."
+msgstr "No profile or stage columns found. Download the profile + stage template."
+
+msgid "Row {{line}} — profile fields or person reference required."
+msgstr "Row {{line}} — profile fields or person reference required."
+
+msgid "Row {{line}} — stage is required."
+msgstr "Row {{line}} — stage is required."
+
+msgid "Row {{line}} — unknown stage \"{{stage}}\"."
+msgstr "Row {{line}} — unknown stage \"{{stage}}\"."
+
+msgid "Row {{line}} — event date is required."
+msgstr "Row {{line}} — event date is required."
+
+msgid "Row {{line}} — unknown column(s) — {{columns}}"
+msgstr "Row {{line}} — unknown column(s) — {{columns}}"
+
+msgid ""
+"No data rows found. Add rows below the example (row {{row}}), include "
+"eventDate, and save the file."
+msgstr ""
+"No data rows found. Add rows below the example (row {{row}}), include "
+"eventDate, and save the file."
+
+msgid "Invalid JSON file."
+msgstr "Invalid JSON file."
+
+msgid "Row {{line}} — invalid record."
+msgstr "Row {{line}} — invalid record."
+
+msgid ""
+"No recognised attribute columns. Use the same column names as export, or "
+"download the import template."
+msgstr ""
+"No recognised attribute columns. Use the same column names as export, or "
+"download the import template."
+
+msgid "Row {{line}} — no attribute values found."
+msgstr "Row {{line}} — no attribute values found."
+
+msgid "Row {{line}} — person reference is required."
+msgstr "Row {{line}} — person reference is required."
+
+msgid ""
+"No stage columns found. Include stage and eventDate (or visitDate) columns, "
+"or download the stage import template."
+msgstr ""
+"No stage columns found. Include stage and eventDate (or visitDate) columns, "
+"or download the stage import template."
+
+msgid "Select a program stage above, or add a stage column to your file."
+msgstr "Select a program stage above, or add a stage column to your file."
+
+msgid "Row {{line}} — unknown data element column(s) for stage — {{columns}}"
+msgstr "Row {{line}} — unknown data element column(s) for stage — {{columns}}"
+
+msgid "Failed to fetch deleted items"
+msgstr "Failed to fetch deleted items"
+
+msgid "Item restored successfully"
+msgstr "Item restored successfully"
+
+msgid "Restore failed"
+msgstr "Restore failed"
+
+msgid "{{count}} items restored successfully"
+msgid_plural "{{count}} items restored successfully"
+msgstr[0] "{{count}} items restored successfully"
+msgstr[1] "{{count}} items restored successfully"
+
+msgid "Restored {{ok}} items. {{fail}} failed."
+msgstr "Restored {{ok}} items. {{fail}} failed."
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "Unknown Event"
+msgstr "Unknown Event"
+
+msgid "Search deleted..."
+msgstr "Search deleted..."
+
+msgid "Clear search"
+msgstr "Clear search"
+
+msgid "Restore Selected ({{count}})"
+msgid_plural "Restore Selected ({{count}})"
+msgstr[0] "Restore Selected ({{count}})"
+msgstr[1] "Restore Selected ({{count}})"
+
+msgid "Deleted Personnel"
+msgstr "Deleted Personnel"
+
+msgid "Deleted Events"
+msgstr "Deleted Events"
+
+msgid "Client"
+msgstr "Client"
+
+msgid "Event Date"
+msgstr "Event Date"
+
+msgid "Deleted At"
+msgstr "Deleted At"
+
+msgid "Deleted By"
+msgstr "Deleted By"
+
+msgid "Restore"
+msgstr "Restore"
+
+msgid "No deleted items found."
+msgstr "No deleted items found."
+
+msgid "There are no deleted records for the selected filters."
+msgstr "There are no deleted records for the selected filters."
+
+msgid "Per Page"
+msgstr "Per Page"
+
+msgid "Loading Trash..."
+msgstr "Loading Trash..."
+
+msgid "Attached image"
+msgstr "Attached image"
+
+msgid "Attached file"
+msgstr "Attached file"
+
+msgid "Profile attribute"
+msgstr "Profile attribute"
+
+msgid "Data element"
+msgstr "Data element"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Count (constant 0)"
+msgstr "Count (constant 0)"
+
+msgid "Placeholder numerator — replace with your formula"
+msgstr "Placeholder numerator — replace with your formula"
+
+msgid "Count (constant 1)"
+msgstr "Count (constant 1)"
+
+msgid "Each row counts as 1"
+msgstr "Each row counts as 1"
+
+msgid "Enrollment count variable"
+msgstr "Enrollment count variable"
+
+msgid "Stage data element"
+msgstr "Stage data element"
+
+msgid "Enrollment analytics preset"
+msgstr "Enrollment analytics preset"
+
+msgid "Sets analytics type to Enrollment + Count"
+msgstr "Sets analytics type to Enrollment + Count"
+
+msgid "Unnamed indicator"
+msgstr "Unnamed indicator"
+
+msgid "Indicator"
+msgstr "Indicator"
+
+msgid "Rule variable"
+msgstr "Rule variable"
+
+msgid ""
+"This visit is complete on the server. Mark it incomplete before saving "
+"changes."
+msgstr ""
+"This visit is complete on the server. Mark it incomplete before saving "
+"changes."
+
+msgid ""
+"You do not have permission to perform this action. Check your DHIS2 role "
+"and organisation unit access."
+msgstr ""
+"You do not have permission to perform this action. Check your DHIS2 role "
+"and organisation unit access."
+
+msgid "Restore failed. Your DHIS2 version may not support restoring from the app."
+msgstr "Restore failed. Your DHIS2 version may not support restoring from the app."
+
+msgid "Tracked entity was permanently deleted and cannot be restored."
+msgstr "Tracked entity was permanently deleted and cannot be restored."
+
+msgid "Client is already active in this program."
+msgstr "Client is already active in this program."
+
+msgid "Failed to restore enrollment. Check mandatory attributes or access rights."
+msgstr "Failed to restore enrollment. Check mandatory attributes or access rights."
+
+msgid "Event was permanently deleted and cannot be restored."
+msgstr "Event was permanently deleted and cannot be restored."
+
+msgctxt "{{stage}}.csv"
+msgid "profile_stage_import"
+msgstr "profile_stage_import_{{stage}}.csv"
+
+msgctxt "{{stage}}.csv"
+msgid "stage_import"
+msgstr "stage_import_{{stage}}.csv"
+
+msgctxt "template.csv"
+msgid "profile_and_stage_import"
+msgstr "profile_and_stage_import_template.csv"
+
+msgctxt "template.csv"
+msgid "personnel_import"
+msgstr "personnel_import_template.csv"
+
+msgctxt "template.xlsx"
+msgid "personnel_import"
+msgstr "personnel_import_template.xlsx"
+
+msgctxt "template.xlsx"
+msgid "profile_and_stage_import"
+msgstr "profile_and_stage_import_template.xlsx"
+
+msgctxt "{{stage}}.xlsx"
+msgid "stage_import"
+msgstr "stage_import_{{stage}}.xlsx"
+
+msgctxt "{{stage}}.xlsx"
+msgid "profile_stage_import"
+msgstr "profile_stage_import_{{stage}}.xlsx"
+
+msgctxt "Application title"
+msgid "__MANIFEST_APP_TITLE"
+msgstr "NPD Capture"
+
+msgctxt "Application description"
+msgid "__MANIFEST_APP_DESCRIPTION"
+msgstr "Custom DHIS2 Capture Tracker app"

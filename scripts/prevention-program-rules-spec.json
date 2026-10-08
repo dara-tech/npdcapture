@@ -1,0 +1,496 @@
+{
+  "programId": "gmO3xUubvMb",
+  "stages": {
+    "risk": "hqJKFmOU6s7",
+    "preventionForm": "mX4OjpyZw3A"
+  },
+  "variables": [
+    {
+      "name": "ART DE",
+      "sourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM_STAGE",
+      "dataElementId": "PUKzRWPVjmX",
+      "programStageId": "mX4OjpyZw3A"
+    },
+    {
+      "name": "DE modality",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "ljaGyg7JxlW"
+    },
+    {
+      "name": "Next appointment Date",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "jLmirx3TTgI"
+    },
+    {
+      "name": "Pre confirm hiv result-F2 form",
+      "sourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "dataElementId": "IYQYsPz7r0D"
+    },
+    {
+      "name": "Risk_10HIV tested",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "ARFp7wrxiFV"
+    },
+    {
+      "name": "Risk_11HIVresult",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "yWvKnLg2VRq"
+    },
+    {
+      "name": "Risk_1sex at birth",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "Lbi259Segyq"
+    },
+    {
+      "name": "Risk_3sex6m",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "Q2KRbrYIKHM"
+    },
+    {
+      "name": "Risk_5partner",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "qa4gp2GMQUA"
+    },
+    {
+      "name": "Risk_6.10-non above",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "q4Xuew3y1c7"
+    },
+    {
+      "name": "Risk_61Receive money",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "b5Jgn263AJT"
+    },
+    {
+      "name": "Risk_62Paidsex",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "BKILZQUFa2t"
+    },
+    {
+      "name": "Risk_63Sexwith known",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "bls0dsZMoRO"
+    },
+    {
+      "name": "Risk_64Sexwithoutcondom",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "JhZONUgUE87"
+    },
+    {
+      "name": "Risk_65sti",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "HnK9Yh1aWn1"
+    },
+    {
+      "name": "Risk_66abortion",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "nXk4YihKCF5"
+    },
+    {
+      "name": "Risk_67alcohol",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "fVWjzCcSCyF"
+    },
+    {
+      "name": "Risk_68highfun",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "FdYD7ISx2s6"
+    },
+    {
+      "name": "Risk_69injected",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "Mm3MCV89ukA"
+    },
+    {
+      "name": "Risk_7sexagainst",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "sEspagSJHg6"
+    },
+    {
+      "name": "Risk_8concerns",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "HZzeCzQOuvh"
+    },
+    {
+      "name": "Risk_9PrEP",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "LTf9Uj5JnqN"
+    },
+    {
+      "name": "Ulceration Ano",
+      "sourceType": "DATAELEMENT_CURRENT_EVENT",
+      "dataElementId": "IQdj9J1XEUz"
+    }
+  ],
+  "rules": [
+    {
+      "name": "Assign Last Modality",
+      "priority": 1,
+      "condition": "#{DE modality} !=''",
+      "programStageId": "mX4OjpyZw3A",
+      "actions": [
+        {
+          "type": "ASSIGN",
+          "data": "#{DE modality}",
+          "trackedEntityAttributeId": "Ct64gKSOpVQ"
+        }
+      ]
+    },
+    {
+      "name": "Assign New 5.Next appointment Date",
+      "priority": 1,
+      "condition": "#{Next appointment Date} !=''",
+      "programStageId": "mX4OjpyZw3A",
+      "actions": [
+        {
+          "type": "ASSIGN",
+          "data": "#{Next appointment Date}",
+          "dataElementId": "sQTg1yi0e7A"
+        }
+      ]
+    },
+    {
+      "name": "Assign New 7.Next appointment Date",
+      "priority": 1,
+      "condition": "#{Next appointment Date} !=''",
+      "programStageId": "mX4OjpyZw3A",
+      "actions": [
+        {
+          "type": "ASSIGN",
+          "data": "#{Next appointment Date}",
+          "dataElementId": "MCX2Ota7rva"
+        }
+      ]
+    },
+    {
+      "name": "Prev Assign ART Code to Attribute",
+      "priority": 1,
+      "condition": "#{ART DE} !=''",
+      "programStageId": "mX4OjpyZw3A",
+      "actions": [
+        {
+          "type": "ASSIGN",
+          "data": "#{ART DE}",
+          "trackedEntityAttributeId": "flOX4pbhnUD"
+        }
+      ]
+    },
+    {
+      "name": "Prev assign HIV confirm result",
+      "priority": 1,
+      "condition": "#{Pre confirm hiv result-F2 form} == 'Positive'",
+      "programStageId": "mX4OjpyZw3A",
+      "actions": [
+        {
+          "type": "ASSIGN",
+          "data": "'Positive'",
+          "trackedEntityAttributeId": "T6sqn5XfL2z"
+        }
+      ]
+    },
+    {
+      "name": "Risk_11_Is Never Test Skip 12",
+      "priority": 1,
+      "condition": "#{Risk_10HIV tested}=='មិនធ្លាប់តេស្ត'||#{Risk_10HIV tested}=='Never test'",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "yWvKnLg2VRq"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "yWvKnLg2VRq"
+        }
+      ]
+    },
+    {
+      "name": "Risk_1_IS Feamle hide 2Male TG",
+      "priority": 1,
+      "condition": "#{Risk_1sex at birth} =='Female' ||#{Risk_1sex at birth} =='ស្រី'",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "HIDEOPTION",
+          "data": "",
+          "dataElementId": "Hvpk8CSzvWZ",
+          "optionId": "y8WebMVNOK8"
+        },
+        {
+          "type": "HIDEOPTION",
+          "data": "",
+          "dataElementId": "Hvpk8CSzvWZ",
+          "optionId": "qi2LyOjsRD8"
+        }
+      ]
+    },
+    {
+      "name": "Risk_1_IS Male hide 6.6abortion 2Female",
+      "priority": 1,
+      "condition": "#{Risk_1sex at birth} =='Male' ||#{Risk_1sex at birth} =='ប្រុស'",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "nXk4YihKCF5"
+        },
+        {
+          "type": "HIDEOPTION",
+          "data": "",
+          "dataElementId": "Hvpk8CSzvWZ",
+          "optionId": "lLVTd29Va0L"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "nXk4YihKCF5"
+        }
+      ]
+    },
+    {
+      "name": "Risk_3_Is No Skip 4 5 7",
+      "priority": 1,
+      "condition": "#{Risk_3sex6m} =='No' ||#{Risk_3sex6m} =='ទេ'",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "G4r3E6LI70l"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "IjncwaiwvUv"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "G4r3E6LI70l"
+        },
+        {
+          "type": "HIDESECTION",
+          "data": "",
+          "dataElementId": "sEspagSJHg6",
+          "programStageSectionId": "k4EIEJ6NQOy"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "sEspagSJHg6"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "TlXvK6qrt1b"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "TlXvK6qrt1b"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "qa4gp2GMQUA"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "qa4gp2GMQUA"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "IjncwaiwvUv"
+        }
+      ]
+    },
+    {
+      "name": "Risk_6_IS Non-above is clear all section 6",
+      "priority": 1,
+      "condition": "#{Risk_6.10-non above} ==true ||#{Risk_6.10-non above} ==1",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "BKILZQUFa2t"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "HnK9Yh1aWn1"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "FdYD7ISx2s6"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "bls0dsZMoRO"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "nXk4YihKCF5"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "bls0dsZMoRO"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "fVWjzCcSCyF"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "JhZONUgUE87"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "Mm3MCV89ukA"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "JhZONUgUE87"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "HnK9Yh1aWn1"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "Mm3MCV89ukA"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "BKILZQUFa2t"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "nXk4YihKCF5"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "b5Jgn263AJT"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "fVWjzCcSCyF"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "b5Jgn263AJT"
+        },
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "FdYD7ISx2s6"
+        }
+      ]
+    },
+    {
+      "name": "Risk_9_Is Yes Skip 10",
+      "priority": 1,
+      "condition": "#{Risk_9PrEP} ==true ||#{Risk_9PrEP} ==1",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "ziEaDW60taC"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"\"",
+          "dataElementId": "ziEaDW60taC"
+        }
+      ]
+    },
+    {
+      "name": "Risk result is High Risk",
+      "priority": 1,
+      "condition": "(#{Risk_3sex6m}=='Yes' || #{Risk_3sex6m}=='បាទ/ចា៎ស')\n&&\n(#{Risk_5partner}=='Two or more per week'\n    || #{Risk_5partner}=='Two or more per month'\n    || #{Risk_5partner}=='More than two in six months'\n    || #{Risk_5partner}=='ពីរឬច្រើន ក្នុងមួយសប្តាហ៍'\n    || #{Risk_5partner}=='ពីរឬច្រើន ក្នុង១ខែ')\n&&\n(#{Risk_61Receive money} ==true\n    || #{Risk_62Paidsex}==true\n    || #{Risk_63Sexwith known}==true\n    || #{Risk_64Sexwithoutcondom}==true\n    || #{Risk_65sti}==true\n    || #{Risk_66abortion}==true\n    || #{Risk_67alcohol}==true\n    || #{Risk_68highfun}=='1'\n    || #{Risk_68highfun}=='2'\n    || #{Risk_69injected}==true)\n&&\n(#{Risk_7sexagainst}==true || #{Risk_7sexagainst}==false || #{Risk_7sexagainst}==1 || #{Risk_7sexagainst}==0)\n&&\n(#{Risk_8concerns}==true || #{Risk_8concerns}==false || #{Risk_8concerns}==1 || #{Risk_8concerns}==0)\n&&\n(#{Risk_9PrEP}==true || #{Risk_9PrEP}==false || #{Risk_9PrEP}==1 || #{Risk_9PrEP}==0)\n&&\n(#{Risk_10HIV tested}=='Less than 6months'\n    || #{Risk_10HIV tested}=='Between 6-12months'\n    || #{Risk_10HIV tested}=='More than 12months'\n    || #{Risk_10HIV tested}=='មិនធ្លាប់តេស្ត'\n    || #{Risk_10HIV tested}=='Never test')\n&&\n(#{Risk_11HIVresult}=='Negative'\n    || #{Risk_11HIVresult}=='អវិជ្ជមាន'\n    || #{Risk_11HIVresult}=='Rather not to say'\n    || #{Risk_11HIVresult}=='សុំមិនឆ្លើយ'\n    || #{Risk_11HIVresult}=='Positive'\n    || #{Risk_11HIVresult}=='វិជ្ជមាន')",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "SHOWWARNING",
+          "data": "",
+          "dataElementId": "MBizmGFOeZg"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"High Risk\"",
+          "dataElementId": "MBizmGFOeZg"
+        }
+      ]
+    },
+    {
+      "name": "Risk result is Low Risk",
+      "priority": 1,
+      "condition": "(\n  (\n    (#{Risk_3sex6m}=='Yes' || #{Risk_3sex6m}=='បាទ/ចា៎ស')\n    &&\n    (\n      #{Risk_5partner} ==''\n      || #{Risk_5partner} =='Only one'\n      || #{Risk_5partner} =='តែម្នាក់'\n      || #{Risk_5partner} =='More than two in six months'\n      || #{Risk_5partner} =='ច្រើនជាងពីរនាក់ ក្នុង៦ខែ'\n    )\n  )\n  ||\n  (#{Risk_3sex6m}=='No' || #{Risk_3sex6m}=='ទេ')\n)\n&&\n(\n  (#{Risk_6.10-non above}==true || #{Risk_6.10-non above}==1)\n  ||\n  (\n    #{Risk_61Receive money} ==false\n    && #{Risk_62Paidsex}==false\n    && #{Risk_63Sexwith known}==false\n    && #{Risk_64Sexwithoutcondom}==false\n    && #{Risk_65sti}==false\n    && #{Risk_67alcohol}==false\n    && (#{Risk_68highfun}=='' || d2:hasValue(#{Risk_68highfun}) == false)\n    && #{Risk_69injected}==false\n  )\n)\n&& (#{Risk_7sexagainst} ==false || #{Risk_7sexagainst} =='')\n&& #{Risk_8concerns}==false\n&& #{Risk_9PrEP}==false\n&&\n(\n  #{Risk_10HIV tested}=='Between 6-12months'\n  || #{Risk_10HIV tested}=='More than 12months/Ever test not remember'\n  || #{Risk_10HIV tested}=='Never test'\n  || #{Risk_10HIV tested}=='ចន្លោះ៦-១២ខែ'\n  || #{Risk_10HIV tested}=='ច្រើនជាង១២ខែឬមិនចាំ'\n  || #{Risk_10HIV tested}=='មិនធ្លាប់តេស្ត'\n  || #{Risk_10HIV tested}=='Never test'\n)\n&&\n(\n  #{Risk_11HIVresult}=='Negative'\n  || #{Risk_11HIVresult}=='អវិជ្ជមាន'\n  || #{Risk_11HIVresult}=='Rather not to say'\n  || #{Risk_11HIVresult}=='សុំមិនឆ្លើយ'\n  || #{Risk_11HIVresult}==''\n)",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "ASSIGN",
+          "data": "\"Low Risk\"",
+          "dataElementId": "MBizmGFOeZg"
+        },
+        {
+          "type": "SHOWWARNING",
+          "data": "",
+          "dataElementId": "MBizmGFOeZg"
+        }
+      ]
+    },
+    {
+      "name": "Risk result is Medium Risk",
+      "priority": 1,
+      "condition": "(#{Risk_3sex6m}=='Yes' || #{Risk_3sex6m}=='បាទ/ចា៎ស')\n&&\n(\n  #{Risk_5partner}=='Only one'\n  || #{Risk_5partner}=='តែម្នាក់'\n  || #{Risk_5partner}=='Two or more per week'\n  || #{Risk_5partner}=='ពីរឬច្រើន ក្នុងមួយសប្តាហ៍'\n  || #{Risk_5partner}=='Two or more per month'\n  || #{Risk_5partner}=='ពីរឬច្រើន ក្នុង១ខែ'\n  || #{Risk_5partner}=='More than two in six months'\n  || #{Risk_5partner}=='ច្រើនជាងពីរនាក់ ក្នុង៦ខែ'\n)\n&&\n(\n  (#{Risk_6.10-non above}==true || #{Risk_6.10-non above}==1)\n  ||\n  (\n    #{Risk_61Receive money} ==false\n    && #{Risk_62Paidsex}==false\n    && #{Risk_63Sexwith known}==false\n    && #{Risk_64Sexwithoutcondom}==false\n    && #{Risk_65sti}==false\n    && #{Risk_67alcohol}==false\n    && (#{Risk_68highfun}=='' || d2:hasValue(#{Risk_68highfun}) == false)\n    && #{Risk_69injected}==false\n  )\n)\n&& (#{Risk_7sexagainst} ==false || #{Risk_7sexagainst} ==true)\n&& (#{Risk_8concerns}==1 || #{Risk_8concerns}==true || #{Risk_8concerns}==false || #{Risk_8concerns}==0)\n&& (#{Risk_9PrEP}==true || #{Risk_9PrEP}==false)\n&&\n(\n  #{Risk_10HIV tested}=='Less than 6months'\n  || #{Risk_10HIV tested}=='Between 6-12months'\n  || #{Risk_10HIV tested}=='More than 12months'\n  || #{Risk_10HIV tested}=='មិនធ្លាប់តេស្ត'\n  || #{Risk_10HIV tested}=='Never test'\n)\n&&\n(\n  #{Risk_11HIVresult}=='Negative'\n  || #{Risk_11HIVresult}=='អវិជ្ជមាន'\n  || #{Risk_11HIVresult}=='Rather not to say'\n  || #{Risk_11HIVresult}=='សុំមិនឆ្លើយ'\n)",
+      "programStageId": "hqJKFmOU6s7",
+      "actions": [
+        {
+          "type": "SHOWWARNING",
+          "data": "",
+          "dataElementId": "MBizmGFOeZg"
+        },
+        {
+          "type": "ASSIGN",
+          "data": "\"Medium Risk\"",
+          "dataElementId": "MBizmGFOeZg"
+        }
+      ]
+    },
+    {
+      "name": "Ulceration (Ano) uncheck",
+      "priority": 1,
+      "condition": "#{Ulceration Ano} ==''",
+      "programStageId": "mX4OjpyZw3A",
+      "actions": [
+        {
+          "type": "HIDEFIELD",
+          "data": "",
+          "dataElementId": "IQdj9J1XEUz"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2026-04-30T01:32:44.867Z\n"
+"PO-Revision-Date: 2026-04-30T01:32:44.868Z\n"
+
+msgid "Risk Screening Tool"
+msgstr "ឧបករណ៍វាស់ស្ទង់ហានិភ័យ"
+
+msgid "Ready to begin screening?"
+msgstr "តើអ្នកត្រៀមខ្លួនរួចរាល់ហើយឬនៅ?"
+
+msgid ""
+"Your clinical workspace is prepared. Simply select an organization unit and "
+"a program from the top filters to unlock the tracking dashboard."
+msgstr "ទីតាំងគ្លីនិករបស់មូលដ្ឋានអ្នករួចរាល់ហើយ។ សូមជ្រើសរើសទីតាំងរដ្ឋបាលនិងកម្មវិធីដើម្បីបង្ហាញព័ត៌មាន។"
+
+msgid "Loading Metadata..."
+msgstr "កំពុងទាញយកទិន្នន័យ..."
+
+msgid "Select Organisation Unit"
+msgstr "ជ្រើសរើសអង្គភាពរដ្ឋបាល"
+
+msgid "Select a target site for data capture."
+msgstr "ជ្រើសរើសទីតាំងគោលដៅសម្រាប់ការបញ្ចូលទិន្នន័យ។"
+
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgid "OK"
+msgstr "យល់ព្រម"
+
+msgid "Confirm"
+msgstr "យល់ព្រម"
+
+msgid "Apply Selection"
+msgstr "យល់ព្រម"
+
+msgid "Select Site"
+msgstr "ជ្រើសរើសទីតាំង"
+
+msgid "Choose tracker program..."
+msgstr "ជ្រើសរើសកម្មវិធី..."
+
+msgid "Load Error"
+msgstr "កំហុសទិន្នន័យ"
+
+msgid "Changes saved successfully"
+msgstr "ព័ត៌មានត្រូវបានរក្សាទុកដោយជោគជ័យ"
+
+msgid "Failed to save changes"
+msgstr "បរាជ័យក្នុងការរក្សាទុកព័ត៌មាន"
+
+msgid "Are you sure you want to delete this record?"
+msgstr "តើអ្នកពិតជាចង់លុបកំណត់ត្រានេះមែនទេ?"
+
+msgid "Record deleted successfully"
+msgstr "កំណត់ត្រាត្រូវបានលុបដោយជោគជ័យ"
+
+msgid "Failed to delete record"
+msgstr "បរាជ័យក្នុងការលុបកំណត់ត្រា"
+
+msgid "Program Info"
+msgstr "ព័ត៌មានអំពីកម្មវិធី"
+
+msgid "Reg Status"
+msgstr "ស្ថានភាពចុះឈ្មោះ"
+
+msgid "Fetching Patient Profile..."
+msgstr "កំពុងទាញយកព័ត៌មានអតិថិជន..."
+
+msgid "Profile Records"
+msgstr "កំណត់ត្រាប្រវត្តិរូប"
+
+msgid "Fields"
+msgstr "វាល"
+
+msgid "Entry Comments"
+msgstr "មតិយោបល់"
+
+msgid "New {{stage}} Entry"
+msgstr "បញ្ចូលកំណត់ត្រាថ្មី"
+
+msgid "Edit {{stage}} Entry"
+msgstr "កែទីរប្រែកំណត់ត្រា"
+
+msgid "{{stage}} Records"
+msgstr "បញ្ជីកំណត់ត្រា"
+
+msgid "Delete"
+msgstr "លុប"
+
+msgid "Saving..."
+msgstr "កំពុងរក្សាទុក..."
+
+msgid "Save Entry"
+msgstr "រក្សាទុកកំណត់ត្រា"
+
+msgid "Add New Entry"
+msgstr "បន្ថែមកំណត់ត្រាថ្មី"
+
+msgid "Select..."
+msgstr "ជ្រើសរើស..."
+
+msgid "Yes"
+msgstr "បាទ/ចាស"
+
+msgid "No"
+msgstr "ទេ"
+
+msgid "No records found for this stage"
+msgstr "មិនមានកំណត់ត្រាសម្រាប់ដំណាក់កាលនេះទេ"
+
+msgid "Click here to add your first entry"
+msgstr "ចុចទីនេះដើម្បីបន្ថែមបញ្ជីដំបូងរបស់អ្នក"
+
+msgid "Clinical Record"
+msgstr "កំណត់ត្រាគ្លីនិក"
+
+msgid "Just Updated"
+msgstr "ទើបធ្វើបច្ចុប្បន្នភាព"
+
+msgid "Hide Preview"
+msgstr "លាក់ព័ត៌មាន"
+
+msgid "Show Preview"
+msgstr "បង្ហាញព័ត៌មាន"
+
+msgid "Event History"
+msgstr "ប្រវត្តិព្រឹត្តិការណ៍"
+
+msgid "All Stages"
+msgstr "ដំណាក់កាលទាំងអស់"
+
+msgid "Status"
+msgstr "ស្ថានភាព"
+
+msgid "Data Element"
+msgstr "អង្គទិន្នន័យ"
+
+msgid "Value"
+msgstr "តម្លៃ"
+
+msgid "Event Date"
+msgstr "កាលបរិច្ឆេទ"
+
+msgid "No Date"
+msgstr "បញ្ជាក់"
+
+msgid "No data values recorded"
+msgstr "មិនមានទិន្នន័យត្រូវបានកត់ត្រាទេ"
+
+msgid "No events found."
+msgstr "មិនមានព្រឹត្តិការណ៍ទេ។"
+
+msgid "View Full Profile"
+msgstr "មើលប្រវត្តិរូបពេញលេញ"
+
+msgid "Close History"
+msgstr "បិទប្រវត្តិ"
+
+msgid "Configure Columns"
+msgstr "កំណត់ជួរឈរ"
+
+msgid "Select attributes to display in your worklist."
+msgstr "ជ្រើសរើសគុណលក្ខណៈដើម្បីបង្ហាញក្នុងការងាររបស់អ្នក។"
+
+msgid "Apply Changes"
+msgstr "អនុវត្តការផ្លាស់ប្តូរ"
+
+msgid "Search records..."
+msgstr "ស្វែងរកកំណត់ត្រា..."
+
+msgid "Register New"
+msgstr "ចុះឈ្មោះថ្មី"
+
+msgid "Configure"
+msgstr "ការកំណត់"
+
+msgid "Search failed"
+msgstr "ការស្វែងរកបានបរាជ័យ"
+
+msgid "Loading Records"
+msgstr "កំពុងទាញយកកំណត់ត្រា"
+
+msgid "Events"
+msgstr "ព្រឹត្តិការណ៍"
+
+msgid "Recently Updated"
+msgstr "ធ្វើបច្ចុប្បន្នភាពថ្មីៗ"
+
+msgid "Created By"
+msgstr "បង្កើតដោយ"
+
+msgid "Showing"
+msgstr "បង្ហាញ"
+
+msgid "to"
+msgstr "ដល់"
+
+msgid "of"
+msgstr "នៃចំនួន"
+
+msgid "Per Page"
+msgstr "ក្នុងមួយទំព័រ"
+
+msgid "Page {{page}}"
+msgstr "ទំព័រ {{page}}"
+
+msgid "No personnel found"
+msgstr "មិនមានរកឃើញអតិថិជនទេ"
+
+msgid "Refine your filters or search terms to see results."
+msgstr "កែប្រែការស្វែងរករបស់អ្នកដើម្បីឃើញលទ្ធផល។"
+
+msgid "Male form"
+msgstr "ទម្រង់ប្រុស"
+
+msgid "Female form"
+msgstr "ទម្រង់ស្រី"
+
+msgid "Question"
+msgstr "សំណួរ"
+
+msgid "Answer"
+msgstr "ចម្លើយ"
+
+msgid "Set client sex on profile to show male or female form"
+msgstr "កំណត់ភេទអតិថិជនក្នុងប្រវត្តិរូប ដើម្បីបង្ហាញទម្រង់ប្រុស ឬស្រី"
+
+msgid "Profile information"
+msgstr "ព័ត៌មានប្រវត្តិរូប"
+
+msgid "Client profile"
+msgstr "ប្រវត្តិរូបអតិថិជន"
+
+msgid "Age"
+msgstr "អាយុ"
+
+msgid "Date of birth"
+msgstr "ថ្ងៃខែឆ្នាំកំណើត"
+
+msgid "Age (completed years)"
+msgstr "អាយុ (ឆ្នាំពេញ)"
+
+msgid "Or date of birth"
+msgstr "ឬ ថ្ងៃខែឆ្នាំកំណើត"
+
+msgid "ថ្ងៃ ខែ ឆ្នាំ មកពិនិត្យ"
+msgstr "ថ្ងៃ ខែ ឆ្នាំ មកពិនិត្យ"
+
+msgid "Show all medicines"
+msgstr "បង្ហាញថ្នាំទាំងអស់"
+
+msgid "Add another medicine"
+msgstr "បន្ថែមថ្នាំមួយទៀត"
+
+msgid "{{current}} of {{max}}"
+msgstr "{{current}} នៃ {{max}}"
+
+msgid "Save"
+msgstr "រក្សាទុក"
+
+msgid "Save profile"
+msgstr "រក្សាទុកប្រវត្តិរូប"
+
+msgid "Mark Complete"
+msgstr "បានបញ្ចប់"
+
+msgid "Completed"
+msgstr "បានបញ្ចប់"
+
+msgid "There are validation warnings"
+msgstr "មានការព្រមានអំពីការផ្ទៀងផ្ទាត់"
+
+msgid "Complete anyway?"
+msgstr "តើអ្នកនៅតែចង់បញ្ចប់មែនទេ?"
+
+msgid "Restored unsaved draft data"
+msgstr "បានស្តារទិន្នន័យព្រាងដែលមិនទាន់រក្សាទុក"
+
+msgid "Discard draft"
+msgstr "លុបព្រាងទិន្នន័យ"
+
+msgid "Active"
+msgstr "សកម្ម"
+
+msgid "ACTIVE"
+msgstr "សកម្ម"
+
+msgid "Actions"
+msgstr "សកម្មភាព"
+
+msgid "Enrollment Date"
+msgstr "កាលបរិច្ឆេទចុះឈ្មោះ"
+
+msgid "Visits"
+msgstr "ការមកពិនិត្យ"
+
+msgid "No visits"
+msgstr "មិនមានការមកពិនិត្យ"
+
+msgid "Cancelled"
+msgstr "បានបោះបង់"
+
+msgid "Scheduled"
+msgstr "បានកំណត់ពេល"
+
+msgid "Skipped"
+msgstr "បានរំលង"
+
+msgid "Overdue"
+msgstr "ហួសកាលកំណត់"
+
+msgid "Not enrolled"
+msgstr "មិនទាន់បានចុះឈ្មោះ"
+
+
+
